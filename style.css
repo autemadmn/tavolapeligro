@@ -1216,6 +1216,7 @@ h1 {
 .allergen-modal-panel {
   width: min(92vw, 560px);
   max-height: min(78vh, 720px);
+  margin: auto;
   overflow: auto;
   padding: clamp(22px, 5vw, 34px);
   border: 1px solid rgba(38, 31, 26, 0.12);
@@ -1616,7 +1617,8 @@ h1 {
   }
 
   .allergen-modal {
-    align-items: end;
+    align-items: center;
+    justify-items: center;
     padding: 18px 12px calc(var(--bottom-nav) + 22px);
   }
 
@@ -1627,7 +1629,7 @@ h1 {
   }
 
   .allergen-modal-panel {
-    width: calc(100vw - 24px);
+    width: min(100%, 560px);
     max-height: calc(100vh - var(--bottom-nav) - 86px);
     border-radius: 18px;
   }
