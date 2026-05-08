@@ -1114,6 +1114,14 @@ h1 {
   line-height: 1.65;
 }
 
+.photo-disclaimer {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.5;
+  opacity: 0.68;
+}
+
 .dish-note {
   margin: 14px 0 0;
   color: var(--sage);

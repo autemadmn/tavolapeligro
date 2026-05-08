@@ -1589,6 +1589,7 @@ const dishTitle = document.querySelector("#dishTitle");
 const dishPrice = document.querySelector("#dishPrice");
 const dishDescription = document.querySelector("#dishDescription");
 const dishNote = document.querySelector("#dishNote");
+const photoDisclaimer = document.querySelector("#photoDisclaimer");
 const dishStatus = document.querySelector("#dishStatus");
 const imageLightbox = document.querySelector("#imageLightbox");
 const imageLightboxImg = document.querySelector("#imageLightboxImg");
@@ -2413,6 +2414,7 @@ async function showDish(selectedDish, sectionName) {
   dishTitle.textContent = itemText.title;
   dishPrice.textContent = getItemPrice(selectedDish, itemText);
   dishDescription.textContent = itemText.description;
+  photoDisclaimer.classList.toggle("is-hidden", !selectedDish.image);
   dishStatus.textContent = `${ui.dishSelected}: ${itemText.title}.`;
 
   if (itemText.note) {
