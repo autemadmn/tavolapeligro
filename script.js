@@ -343,11 +343,11 @@ const beverageGroups = [
     category: "Cerveza",
     shortLabel: "Cerveza",
     items: [
-      { id: "aguila-dorada", title: "Águila dorada", price: "3,50 €", description: "Cerveza Águila dorada.", image: "assets/bebidas.svg" },
-      { id: "radler", title: "Radler", price: "3,50 €", description: "Cerveza Radler.", image: "assets/bebidas.svg" },
-      { id: "cerveza-00", title: "Cerveza 0,0", price: "3,50 €", description: "Cerveza sin alcohol.", image: "assets/bebidas.svg" },
-      { id: "cerveza-sin-gluten", title: "Cerveza sin gluten", price: "4,00 €", description: "Cerveza sin gluten.", image: "assets/bebidas.svg" },
-      { id: "amstel-oro-lata", title: "Amstel oro lata", price: "3,50 €", description: "Amstel Oro en lata.", image: "assets/bebidas.svg" }
+      { id: "aguila-dorada", title: "Águila dorada", price: "3,50 €", description: "Cerveza Águila dorada.", image: "assets/aguila-dorada.webp" },
+      { id: "radler", title: "Radler", price: "3,50 €", description: "Cerveza Radler.", image: "assets/radler.webp" },
+      { id: "cerveza-00", title: "Cerveza 0,0", price: "3,50 €", description: "Cerveza sin alcohol.", image: "assets/cerveza-00.webp" },
+      { id: "cerveza-sin-gluten", title: "Cerveza sin gluten", price: "4,00 €", description: "Cerveza sin gluten.", image: "assets/cerveza-sin-gluten.webp" },
+      { id: "amstel-oro-lata", title: "Amstel oro lata", price: "3,50 €", description: "Amstel Oro en lata.", image: "assets/amstel-oro-lata.webp" }
     ]
   },
   {
@@ -396,11 +396,11 @@ const beverageGroups = [
     category: "Cavas y espumosos",
     shortLabel: "Cavas",
     items: [
-      { id: "cava-patacona-brut", title: "Cava Patacona Brut", price: "Copa 5,00 € | Botella 30,00 €", description: "Cava Patacona Brut.", image: "assets/bebidas.svg" },
-      { id: "cava-lola", title: "Cava Lola", price: "Botella 40,00 €", description: "Bodega Paco & Lola.", image: "assets/bebidas.svg" },
-      { id: "moet-chandon", title: "Moet & Chandon", price: "Botella 110,00 €", description: "Champagne Moet & Chandon.", image: "assets/bebidas.svg" },
-      { id: "moet-chandon-rose", title: "Moet & Chandon Rosé", price: "Botella 130,00 €", description: "Champagne Moet & Chandon Rosé.", image: "assets/bebidas.svg" },
-      { id: "moet-chandon-ice", title: "Moet & Chandon Ice", price: "Botella 150,00 €", description: "Champagne Moet & Chandon Ice.", image: "assets/bebidas.svg" }
+      { id: "cava-patacona-brut", title: "Cava Patacona Brut", price: "Copa 5,00 € | Botella 30,00 €", description: "Cava Patacona Brut.", image: "assets/cavapataconabrut.webp" },
+      { id: "cava-lola", title: "Cava Lola", price: "Botella 40,00 €", description: "Bodega Paco & Lola.", image: "assets/cavalola.webp" },
+      { id: "moet-chandon", title: "Moet & Chandon", price: "Botella 110,00 €", description: "Champagne Moet & Chandon.", image: "assets/moet-chandon.webp" },
+      { id: "moet-chandon-rose", title: "Moet & Chandon Rosé", price: "Botella 130,00 €", description: "Champagne Moet & Chandon Rosé.", image: "assets/moet-chandon-rose.webp" },
+      { id: "moet-chandon-ice", title: "Moet & Chandon Ice", price: "Botella 150,00 €", description: "Champagne Moet & Chandon Ice.", image: "assets/moet-chandon-ice.webp" }
     ]
   }
 ];
@@ -1571,7 +1571,7 @@ const groupLinearts = {
   picar: "assets/aperitivoypicarart.webp",
   tapas: "assets/tapasart.webp",
   bocadillos: "assets/bocadillosart.webp",
-  pizzas: "assets/pizzasalhornodepiedraart.webp",
+  pizzas: "assets/pizzaart.webp",
   platos: "assets/platospreparadosart.webp"
 };
 
@@ -1598,7 +1598,7 @@ const allergenModalClose = document.querySelector("#allergenModalClose");
 const allergenTitle = document.querySelector("#allergenTitle");
 const allergenModalContent = document.querySelector("#allergenModalContent");
 
-let activeSectionId = "comidas";
+let activeSectionId = "bebidas";
 let activeHamacaPeriodId = "fin-semana";
 let activeHamacaTurnId = "mananas";
 let currentLanguage = getSavedLanguage();
