@@ -324,18 +324,18 @@ const beverageGroups = [
     shortLabel: "Refrescos",
     items: [
       { id: "agua", title: "Agua", price: "2,50 €", description: "Agua mineral.", image: "assets/bebidas.svg" },
-      { id: "agua-gas", title: "Agua gas", price: "3,00 €", description: "Agua con gas.", image: "assets/bebidas.svg" },
-      { id: "pepsi", title: "Pepsi", price: "3,00 €", description: "Refresco Pepsi.", image: "assets/bebidas.svg" },
-      { id: "pepsi-zero", title: "Pepsi zero", price: "3,00 €", description: "Refresco Pepsi zero.", image: "assets/bebidas.svg" },
-      { id: "schweppes-naranja", title: "Schweppes Naranja", price: "3,00 €", description: "Refresco de naranja.", image: "assets/bebidas.svg" },
-      { id: "schweppes-limon", title: "Schweppes Limón", price: "3,00 €", description: "Refresco de limón.", image: "assets/bebidas.svg" },
+      { id: "agua-gas", title: "Agua gas", price: "3,00 €", description: "Agua con gas.", image: "assets/agua-gas.webp" },
+      { id: "pepsi", title: "Pepsi", price: "3,00 €", description: "Refresco Pepsi.", image: "assets/pepsi.webp" },
+      { id: "pepsi-zero", title: "Pepsi zero", price: "3,00 €", description: "Refresco Pepsi zero.", image: "assets/pepsi-zero.webp" },
+      { id: "schweppes-naranja", title: "Schweppes Naranja", price: "3,00 €", description: "Refresco de naranja.", image: "assets/schweppes-naranja.webp" },
+      { id: "schweppes-limon", title: "Schweppes Limón", price: "3,00 €", description: "Refresco de limón.", image: "assets/schweppes-limon.webp" },
       { id: "sevenup", title: "Sevenup", price: "3,00 €", description: "Refresco Sevenup.", image: "assets/bebidas.svg" },
       { id: "tonica-schweppes", title: "Tónica Schweppes", price: "3,00 €", description: "Tónica Schweppes.", image: "assets/bebidas.svg" },
-      { id: "aquarade-limon", title: "Aquarade limón", price: "3,50 €", description: "Bebida isotónica de limón.", image: "assets/bebidas.svg" },
-      { id: "aquarade-naranja", title: "Aquarade naranja", price: "3,50 €", description: "Bebida isotónica de naranja.", image: "assets/bebidas.svg" },
-      { id: "lipton-limon", title: "Lipton limón", price: "3,50 €", description: "Té frío de limón.", image: "assets/bebidas.svg" },
-      { id: "redbull", title: "Redbull", price: "3,50 €", description: "Bebida energética.", image: "assets/bebidas.svg" },
-      { id: "zumos", title: "Zumos", price: "2,50 €", description: "Zumos variados.", image: "assets/bebidas.svg" }
+      { id: "aquarade-limon", title: "Aquarade limón", price: "3,50 €", description: "Bebida isotónica de limón.", image: "assets/aquarade-limon.webp" },
+      { id: "aquarade-naranja", title: "Aquarade naranja", price: "3,50 €", description: "Bebida isotónica de naranja.", image: "assets/aquarade-naranja.webp" },
+      { id: "lipton-limon", title: "Lipton limón", price: "3,50 €", description: "Té frío de limón.", image: "assets/lipton-limon.webp" },
+      { id: "redbull", title: "Redbull", price: "3,50 €", description: "Bebida energética.", image: "assets/redbull.webp" },
+      { id: "zumos", title: "Zumos", price: "2,50 €", description: "Zumos variados.", image: "assets/zumos.webp" }
     ]
   },
   {
