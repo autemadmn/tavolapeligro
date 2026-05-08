@@ -368,9 +368,9 @@ const beverageGroups = [
     category: "Vinos blancos",
     shortLabel: "Blancos",
     items: [
-      { id: "ceremonia-sauvignon-blanc", title: "Ceremonia Sauvignon Blanc", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/bebidas.svg" },
-      { id: "ramon-bilbao-verdejo", title: "Ramón Bilbao Verdejo", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino blanco Ramón Bilbao Verdejo.", image: "assets/bebidas.svg" },
-      { id: "paco-lola-albarino", title: "Paco & Lola Albariño", price: "Copa 4,80 € | Botella 22,00 €", description: "Albariño Paco & Lola.", image: "assets/bebidas.svg" }
+      { id: "ceremonia-sauvignon-blanc", title: "Ceremonia Sauvignon Blanc", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/ceremonia-sauvignon-blanc.webp" },
+      { id: "ramon-bilbao-verdejo", title: "Ramón Bilbao Verdejo", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino blanco Ramón Bilbao Verdejo.", image: "assets/ramon-bilbao-verdejo.webp" },
+      { id: "paco-lola-albarino", title: "Paco & Lola Albariño", price: "Copa 4,80 € | Botella 22,00 €", description: "Albariño Paco & Lola.", image: "assets/paco-lola-albarino.webp" }
     ]
   },
   {
@@ -378,9 +378,9 @@ const beverageGroups = [
     category: "Vinos tintos",
     shortLabel: "Tintos",
     items: [
-      { id: "ceremonia-cabernet-sauvignon", title: "Ceremonia Cabernet Sauvignon", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/bebidas.svg" },
-      { id: "ramon-bilbao-crianza-rioja", title: "Ramón Bilbao Crianza Rioja", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino tinto Ramón Bilbao Crianza Rioja.", image: "assets/bebidas.svg" },
-      { id: "ceramic-monastrell-vicente-gandia", title: "Ceramic Monastrell Vicente Gandía", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino tinto Monastrell Vicente Gandía.", image: "assets/bebidas.svg" }
+      { id: "ceremonia-cabernet-sauvignon", title: "Ceremonia Cabernet Sauvignon", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/ceremonia-cabernet-sauvignon.webp" },
+      { id: "ramon-bilbao-crianza-rioja", title: "Ramón Bilbao Crianza Rioja", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino tinto Ramón Bilbao Crianza Rioja.", image: "assets/ramon-bilbao-crianza-rioja.webp" },
+      { id: "ceramic-monastrell-vicente-gandia", title: "Ceramic Monastrell Vicente Gandía", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino tinto Monastrell Vicente Gandía.", image: "assets/ceramic-monastrell-vicente-gandia.webp" }
     ]
   },
   {
@@ -388,7 +388,7 @@ const beverageGroups = [
     category: "Vinos rosados",
     shortLabel: "Rosados",
     items: [
-      { id: "ceremonia-bobal-rose", title: "Ceremonia Bobal Rosé", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/bebidas.svg" }
+      { id: "ceremonia-bobal-rose", title: "Ceremonia Bobal Rosé", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/ceremonia-bobal-rose.webp" }
     ]
   },
   {
