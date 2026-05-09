@@ -482,42 +482,42 @@ const cocktailGroups = [
         title: "Mojito normal",
         price: "9,00 €",
         description: "Mojito clásico.",
-        image: "assets/cocteles.svg"
+        image: "assets/mojito-normal.webp"
       },
       {
         id: "mojito-sabores",
         title: "Mojito sabores",
         price: "9,00 €",
         description: "Mojito de sabores: melón, fresa o maracuyá.",
-        image: "assets/cocteles.svg"
+        image: "assets/mojito-sabores.webp"
       },
       {
         id: "daikiri-frozen",
         title: "Daikiri Frozen",
         price: "9,00 €",
         description: "Daikiri frozen.",
-        image: "assets/cocteles.svg"
+        image: "assets/daikiri-frozen.webp"
       },
       {
         id: "pina-colada",
         title: "Piña colada",
         price: "9,00 €",
         description: "Cóctel de piña colada.",
-        image: "assets/cocteles.svg"
+        image: "assets/pina-colada.webp"
       },
       {
         id: "caipirinha",
         title: "Caipirinha",
         price: "9,00 €",
         description: "Caipirinha clásica.",
-        image: "assets/cocteles.svg"
+        image: "assets/caipirinha.webp"
       },
       {
         id: "caipiroska",
         title: "Caipiroska",
         price: "9,00 €",
         description: "Caipiroska clásica.",
-        image: "assets/cocteles.svg"
+        image: "assets/caipiroska.webp"
       }
     ]
   }
