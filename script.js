@@ -355,7 +355,7 @@ const beverageGroups = [
     category: "Vermouth y copas",
     shortLabel: "Vermouth",
     items: [
-      { id: "vermouth", title: "Vermouth", price: "5,00 €", description: "Rojo o blanco.", image: "assets/bebidas.svg" },
+      { id: "vermouth", title: "Vermouth", price: "5,00 €", description: "Rojo o blanco.", image: "assets/vermouth.webp" },
       { id: "combinados", title: "Combinados", price: "9,00 €", description: "Masters, Larios 12, Barceló, Brugal, Jony Walker, Moscovscaya, Dyc, Deseen y similares.", image: "assets/combinados.webp" },
       { id: "premium-desde", title: "Copas premium", price: "Desde 11,00 €", description: "Roku, Bulldog, Martin Miller's, 1888, Zacapa, Black Label, Macallan 12 y similares.", image: "assets/copas-premium.webp" },
       { id: "chupitos", title: "Chupitos", price: "3,50 €", description: "Chupitos.", image: "assets/chupitos.webp" },
