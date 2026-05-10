@@ -417,7 +417,7 @@ const granizadosSmoothiesGroups = [
         price: "5,00 €",
         description: "Granizado refrescante de limón.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies.svg"
+        image: "assets/granizado-limon.webp"
       },
       {
         id: "smoothie-mango",
@@ -425,7 +425,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Smoothie de mango.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies.svg"
+        image: "assets/smoothie-mango.webp"
       },
       {
         id: "smoothie-coco-pina",
@@ -433,7 +433,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Smoothie de coco y piña.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies.svg"
+        image: "assets/smoothie-coco-pina.webp"
       },
       {
         id: "smoothie-yogur-melon",
@@ -441,7 +441,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Smoothie de yogur y melón.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies.svg"
+        image: "assets/smoothie-yogur-melon.webp"
       },
       {
         id: "frappe-cafe",
@@ -449,7 +449,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Frappé de café.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies.svg"
+        image: "assets/frappe-cafe.webp"
       },
       {
         id: "frappe-chocolate",
@@ -457,7 +457,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Frappé de chocolate.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies.svg"
+        image: "assets/frappe-chocolate.webp"
       },
       {
         id: "frappe-vainilla",
@@ -465,7 +465,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Frappé de vainilla.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies.svg"
+        image: "assets/frappe-vainilla.webp"
       }
     ]
   }
@@ -534,42 +534,42 @@ const sangriaGroups = [
         title: "Tinto verano vaso",
         price: "5,00 €",
         description: "Tinto de verano servido en vaso.",
-        image: "assets/sangrias.svg"
+        image: "assets/tinto-verano-vaso.webp"
       },
       {
         id: "tinto-verano-jarra",
         title: "Tinto verano jarra",
         price: "20,00 €",
         description: "Tinto de verano servido en jarra.",
-        image: "assets/sangrias.svg"
+        image: "assets/tinto-verano-jarra.webp"
       },
       {
         id: "sangria-vino-blanco",
         title: "Sangría vino blanco",
         price: "30,00 €",
         description: "Sangría preparada con vino blanco.",
-        image: "assets/sangrias.svg"
+        image: "assets/sangria-vino-blanco.webp"
       },
       {
         id: "sangria-vino-tinto",
         title: "Sangría vino tinto",
         price: "30,00 €",
         description: "Sangría preparada con vino tinto.",
-        image: "assets/sangrias.svg"
+        image: "assets/sangria-vino-tinto.webp"
       },
       {
         id: "sangria-cava",
         title: "Sangría de cava",
         price: "35,00 €",
         description: "Sangría preparada con cava.",
-        image: "assets/sangrias.svg"
+        image: "assets/sangria-cava.webp"
       },
       {
         id: "agua-valencia",
         title: "Agua de Valencia",
         price: "35,00 €",
         description: "Cóctel valenciano fresco y cítrico.",
-        image: "assets/sangrias.svg"
+        image: "assets/agua-valencia.webp"
       }
     ]
   }
