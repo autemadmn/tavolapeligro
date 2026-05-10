@@ -356,11 +356,11 @@ const beverageGroups = [
     shortLabel: "Vermouth",
     items: [
       { id: "vermouth", title: "Vermouth", price: "5,00 €", description: "Rojo o blanco.", image: "assets/bebidas.svg" },
-      { id: "combinados", title: "Combinados", price: "9,00 €", description: "Masters, Larios 12, Barceló, Brugal, Jony Walker, Moscovscaya, Dyc, Deseen y similares.", image: "assets/bebidas.svg" },
-      { id: "premium-desde", title: "Copas premium", price: "Desde 11,00 €", description: "Roku, Bulldog, Martin Miller's, 1888, Zacapa, Black Label, Macallan 12 y similares.", image: "assets/bebidas.svg" },
-      { id: "chupitos", title: "Chupitos", price: "3,50 €", description: "Chupitos.", image: "assets/bebidas.svg" },
-      { id: "chupitos-premium", title: "Chupitos premium", price: "6,00 €", description: "Chupitos premium.", image: "assets/bebidas.svg" },
-      { id: "licores", title: "Licores", price: "6,00 €", description: "Baileys, licor de hierbas y similares.", image: "assets/bebidas.svg" }
+      { id: "combinados", title: "Combinados", price: "9,00 €", description: "Masters, Larios 12, Barceló, Brugal, Jony Walker, Moscovscaya, Dyc, Deseen y similares.", image: "assets/combinados.webp" },
+      { id: "premium-desde", title: "Copas premium", price: "Desde 11,00 €", description: "Roku, Bulldog, Martin Miller's, 1888, Zacapa, Black Label, Macallan 12 y similares.", image: "assets/copas-premium.webp" },
+      { id: "chupitos", title: "Chupitos", price: "3,50 €", description: "Chupitos.", image: "assets/chupitos.webp" },
+      { id: "chupitos-premium", title: "Chupitos premium", price: "6,00 €", description: "Chupitos premium.", image: "assets/chupitos-premium.webp" },
+      { id: "licores", title: "Licores", price: "6,00 €", description: "Baileys, licor de hierbas y similares.", image: "assets/licores.webp" }
     ]
   },
   {
