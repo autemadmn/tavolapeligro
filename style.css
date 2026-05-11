@@ -1155,8 +1155,8 @@ h1 {
 .image-lightbox-panel {
   display: grid;
   place-items: center;
-  width: min(92vw, 76vh, 720px);
-  height: min(92vw, 76vh, 720px);
+  width: min(92vw, 760px);
+  height: min(88vh, 860px);
   overflow: hidden;
   border-radius: 18px;
   background: #fff7ea;
@@ -1500,8 +1500,8 @@ h1 {
     order: -1;
     display: grid;
     grid-template-columns: 184px 1fr;
-    height: 212px;
-    min-height: 212px;
+    height: 228px;
+    min-height: 228px;
     overflow: hidden;
     margin-inline: -1px;
   }
@@ -1583,8 +1583,8 @@ h1 {
   }
 
   .image-lightbox-panel {
-    width: min(calc(100vw - 32px), 64vh, 620px);
-    height: min(calc(100vw - 32px), 64vh, 620px);
+    width: min(calc(100vw - 32px), 640px);
+    height: min(calc(100vh - var(--bottom-nav) - 56px), 760px);
   }
 
   .dish {
@@ -1650,8 +1650,8 @@ h1 {
 
   .dish-preview {
     grid-template-columns: 172px 1fr;
-    height: 198px;
-    min-height: 198px;
+    height: 216px;
+    min-height: 216px;
   }
 
   .image-frame {
@@ -1669,8 +1669,8 @@ h1 {
   }
 
   .image-lightbox-panel {
-    width: min(calc(100vw - 24px), calc(100vh - var(--bottom-nav) - 92px));
-    height: min(calc(100vw - 24px), calc(100vh - var(--bottom-nav) - 92px));
+    width: calc(100vw - 24px);
+    height: min(74vh, calc(100vh - var(--bottom-nav) - 56px));
     border-radius: 18px;
   }
 
