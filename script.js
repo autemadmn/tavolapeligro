@@ -324,18 +324,18 @@ const beverageGroups = [
     shortLabel: "Refrescos",
     items: [
       { id: "agua", title: "Agua", price: "2,50 €", description: "Agua mineral.", image: "assets/bebidas/refrescos/agua.webp" },
-      { id: "agua-gas", title: "Agua con gas", price: "3,00 €", description: "Agua con gas.", image: "assets/bebidas/refrescos/agua-gas.webp" },
-      { id: "pepsi", title: "Pepsi", price: "3,00 €", description: "Refresco Pepsi.", image: "assets/bebidas/refrescos/pepsi.webp" },
-      { id: "pepsi-zero", title: "Pepsi Zero", price: "3,00 €", description: "Refresco Pepsi Zero.", image: "assets/bebidas/refrescos/pepsi-zero.webp" },
-      { id: "schweppes-naranja", title: "Schweppes Naranja", price: "3,00 €", description: "Refresco de naranja.", image: "assets/bebidas/refrescos/schweppes-naranja.webp" },
-      { id: "schweppes-limon", title: "Schweppes Limón", price: "3,00 €", description: "Refresco de limón.", image: "assets/bebidas/refrescos/schweppes-limon.webp" },
-      { id: "sevenup", title: "SevenUp", price: "3,00 €", description: "Refresco SevenUp.", image: "assets/bebidas/refrescos/sevenup.webp" },
-      { id: "tonica-schweppes", title: "Tónica Schweppes", price: "3,00 €", description: "Tónica Schweppes.", image: "assets/bebidas/refrescos/tonica-schweppes.webp" },
-      { id: "aquarade-limon", title: "Aquarade Limón", price: "3,50 €", description: "Bebida isotónica de limón.", image: "assets/bebidas/refrescos/aquarade-limon.webp" },
-      { id: "aquarade-naranja", title: "Aquarade Naranja", price: "3,50 €", description: "Bebida isotónica de naranja.", image: "assets/bebidas/refrescos/aquarade-naranja.webp" },
-      { id: "lipton-limon", title: "Lipton Limón", price: "3,50 €", description: "Té frío de limón.", image: "assets/bebidas/refrescos/lipton-limon.webp" },
+      { id: "agua-gas", title: "Agua con gas", price: "3,00 €", description: "Agua con gas.", image: "assets/bebidas/refrescos/aguacongaslata.webp" },
+      { id: "pepsi", title: "Pepsi", price: "3,00 €", description: "Refresco Pepsi.", image: "assets/bebidas/refrescos/pepsilata.webp" },
+      { id: "pepsi-zero", title: "Pepsi Zero", price: "3,00 €", description: "Refresco Pepsi Zero.", image: "assets/bebidas/refrescos/pepsizerolata.webp" },
+      { id: "schweppes-naranja", title: "Schweppes Naranja", price: "3,00 €", description: "Refresco de naranja.", image: "assets/bebidas/refrescos/shweppesnaranjalata.webp" },
+      { id: "schweppes-limon", title: "Schweppes Limón", price: "3,00 €", description: "Refresco de limón.", image: "assets/bebidas/refrescos/shweppeslimónlata.webp" },
+      { id: "sevenup", title: "SevenUp", price: "3,00 €", description: "Refresco SevenUp.", image: "assets/bebidas/refrescos/sevenuplata.webp" },
+      { id: "tonica-schweppes", title: "Tónica Schweppes", price: "3,00 €", description: "Tónica Schweppes.", image: "assets/bebidas/refrescos/tónicashweppeslata.webp" },
+      { id: "aquarade-limon", title: "Aquarade Limón", price: "3,50 €", description: "Bebida isotónica de limón.", image: "assets/bebidas/refrescos/aquaradelimónlata.webp" },
+      { id: "aquarade-naranja", title: "Aquarade Naranja", price: "3,50 €", description: "Bebida isotónica de naranja.", image: "assets/bebidas/refrescos/aquaradenaranjalata.webp" },
+      { id: "lipton-limon", title: "Lipton Limón", price: "3,50 €", description: "Té frío de limón.", image: "assets/bebidas/refrescos/liptonlimónlata.webp" },
       { id: "redbull", title: "Redbull", price: "3,50 €", description: "Bebida energética.", image: "assets/bebidas/refrescos/redbull.webp" },
-      { id: "zumos", title: "Zumos", price: "2,50 €", description: "Zumos variados.", image: "assets/bebidas/refrescos/zumos.webp" }
+      { id: "zumos", title: "Zumos", price: "2,50 €", description: "Zumos variados.", image: "assets/bebidas/refrescos/zumoslata.webp" }
     ]
   },
   {
@@ -2146,6 +2146,18 @@ function createHamacaHeroCard(activePeriod, activeTariff) {
   return card;
 }
 
+function createHamacaReserveButton() {
+  const ui = getUiCopy();
+  const link = document.createElement("a");
+
+  link.className = "hamaca-reserve-button";
+  link.href = "https://restaurante.covermanager.com/tavola-chiringo-valencia/";
+  link.target = "_blank";
+  link.rel = "noopener";
+  link.textContent = ui.reserveLabel;
+  return link;
+}
+
 function createHamacasSection() {
   const wrapper = document.createElement("div");
   const activePeriod = getActiveHamacaPeriod();
@@ -2156,6 +2168,7 @@ function createHamacasSection() {
     createHamacaDaySelector(activePeriod),
     createHamacaTurnSelector(activePeriod, activeTariff),
     createHamacaHeroCard(activePeriod, activeTariff),
+    createHamacaReserveButton(),
     createHamacaRules(),
     createHamacaBenefits()
   );
