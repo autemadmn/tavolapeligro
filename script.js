@@ -10,7 +10,7 @@ const foodGroups = [
         price: "6,50 €",
         description: "Café o té/infusión + zumo + tostada a elegir: aceite, mermelada, tomate, mantequilla o bollería.",
         note: "Hasta las 12:00h",
-        image: "assets/desayuno-tradicional.webp"
+        image: "assets/comidas/desayuno/desayuno-tradicional.webp"
       },
       {
         id: "desayuno-supreme",
@@ -18,7 +18,7 @@ const foodGroups = [
         price: "9,00 €",
         description: "Café o té/infusión + zumo + tostada a elegir: tostada jamón con tomate, salmón y aguacate, o atún con tomate.",
         note: "Hasta las 12:00h",
-        image: "assets/desayuno-supreme.webp"
+        image: "assets/comidas/desayuno/desayuno-supreme.webp"
       }
     ]
   },
@@ -32,56 +32,56 @@ const foodGroups = [
         title: "Frutos secos",
         price: "2,00 €",
         description: "Aperitivo clásico para acompañar la bebida.",
-        image: "assets/tarta.webp"
+        image: "assets/comidas/genericas/tarta.webp"
       },
       {
         id: "papas",
         title: "Papas",
         price: "2,50 €",
         description: "Patatas chips crujientes.",
-        image: "assets/pasta.webp"
+        image: "assets/comidas/genericas/pasta.webp"
       },
       {
         id: "aceitunas",
         title: "Aceitunas",
         price: "3,00 €",
         description: "Aceitunas servidas como aperitivo.",
-        image: "assets/ensalada.webp"
+        image: "assets/comidas/genericas/ensalada.webp"
       },
       {
         id: "edamame",
         title: "Edamame",
         price: "4,00 €",
         description: "Vainas de soja al vapor, ligeras y sabrosas.",
-        image: "assets/ensalada.webp"
+        image: "assets/comidas/genericas/ensalada.webp"
       },
       {
         id: "barqueta-mini-fuets",
         title: "Barqueta de mini fuets",
         price: "7,00 €",
         description: "Mini fuets servidos en barqueta.",
-        image: "assets/bruschetta.webp"
+        image: "assets/comidas/genericas/bruschetta.webp"
       },
       {
         id: "papas-mejillones",
         title: "Papas con mejillones",
         price: "9,00 €",
         description: "Papas acompañadas de mejillones.",
-        image: "assets/salmon.webp"
+        image: "assets/comidas/genericas/salmon.webp"
       },
       {
         id: "papas-boquerones",
         title: "Papas con boquerones",
         price: "9,00 €",
         description: "Papas acompañadas de boquerones.",
-        image: "assets/salmon.webp"
+        image: "assets/comidas/genericas/salmon.webp"
       },
       {
         id: "papas-limon-berberechos",
         title: "Papas fresquitas con limón y berberechos",
         price: "12,00 €",
         description: "Papas con toque fresco de limón y berberechos.",
-        image: "assets/salmon.webp"
+        image: "assets/comidas/genericas/salmon.webp"
       }
     ]
   },
@@ -95,70 +95,70 @@ const foodGroups = [
         title: "Lata de pulpo al pimentón",
         price: "9,00 €",
         description: "Lata de pulpo al pimentón.",
-        image: "assets/pulpo-al-pimenton.webp"
+        image: "assets/comidas/tapas/pulpo-al-pimenton.webp"
       },
       {
         id: "ensaladilla-rusa",
         title: "Ensaladilla rusa",
         price: "9,00 €",
         description: "Ensaladilla rusa clásica.",
-        image: "assets/ensalada.webp"
+        image: "assets/comidas/genericas/ensalada.webp"
       },
       {
         id: "ajo-arriero",
         title: "Ajo arriero",
         price: "8,00 €",
         description: "Tapa tradicional de ajo arriero.",
-        image: "assets/ajo-arriero.webp"
+        image: "assets/comidas/tapas/ajo-arriero.webp"
       },
       {
         id: "nachos-verano",
         title: "Nachos de verano",
         price: "10,00 €",
         description: "Crema agria, guacamole y salsa mexicana.",
-        image: "assets/nachos-verano.webp"
+        image: "assets/comidas/tapas/nachos-verano.webp"
       },
       {
         id: "nachos-tartar-salmon",
         title: "Nachos con tartar de salmón",
         price: "12,00 €",
         description: "Tartar de salmón, alga wakame y salsa Tavola.",
-        image: "assets/nachos-tartar-salmon.webp"
+        image: "assets/comidas/tapas/nachos-tartar-salmon.webp"
       },
       {
         id: "tabla-jamon-iberico-duroc",
         title: "Tabla jamón ibérico duroc",
         price: "13,00 €",
         description: "Tabla de jamón ibérico duroc.",
-        image: "assets/tabla-jamon-iberico-duroc.webp"
+        image: "assets/comidas/tapas/tabla-jamon-iberico-duroc.webp"
       },
       {
         id: "tabla-quesos-valencianos",
         title: "Tabla quesos valencianos",
         price: "12,00 €",
         description: "Selección de quesos valencianos.",
-        image: "assets/tabla-quesos.webp"
+        image: "assets/comidas/tapas/tabla-quesos.webp"
       },
       {
         id: "tortilla-jamon",
         title: "Mini Tortilla con jamón",
         price: "10,00 €",
         description: "Mini tortilla acompañada de jamón.",
-        image: "assets/tortilla-jamon.webp"
+        image: "assets/comidas/tapas/tortilla-jamon.webp"
       },
       {
         id: "mejillones-vapor-limon",
         title: "Mejillones al vapor con limón",
         price: "12,00 €",
         description: "Mejillones al vapor con un toque de limón.",
-        image: "assets/salmon.webp"
+        image: "assets/comidas/genericas/salmon.webp"
       },
       {
         id: "servicio-pan",
         title: "Servicio de pan",
         price: "2,00 €",
         description: "Pan para acompañar.",
-        image: "assets/bruschetta.webp",
+        image: "assets/comidas/genericas/bruschetta.webp",
         hasDetail: false
       },
       {
@@ -166,7 +166,7 @@ const foodGroups = [
         title: "Servicio de picos y pan adicional",
         price: "2,00 €",
         description: "Picos y pan extra.",
-        image: "assets/bruschetta.webp",
+        image: "assets/comidas/genericas/bruschetta.webp",
         hasDetail: false
       },
       {
@@ -174,7 +174,7 @@ const foodGroups = [
         title: "Salsas adicionales",
         price: "2,00 €",
         description: "Salsas extra a elección del cliente.",
-        image: "assets/ensalada.webp",
+        image: "assets/comidas/genericas/ensalada.webp",
         hasDetail: false
       }
     ]
@@ -190,7 +190,7 @@ const foodGroups = [
         price: "11,00 €",
         description: "Bocadillo de escalivada.",
         note: "Acompañados con papas.",
-        image: "assets/bruschetta.webp"
+        image: "assets/comidas/genericas/bruschetta.webp"
       },
       {
         id: "magro-tomate",
@@ -198,7 +198,7 @@ const foodGroups = [
         price: "11,00 €",
         description: "Bocadillo de magro con tomate.",
         note: "Acompañados con papas.",
-        image: "assets/bruschetta.webp"
+        image: "assets/comidas/genericas/bruschetta.webp"
       },
       {
         id: "lomo-ajos-tiernos",
@@ -206,7 +206,7 @@ const foodGroups = [
         price: "11,00 €",
         description: "Bocadillo de lomo con ajos tiernos.",
         note: "Acompañados con papas.",
-        image: "assets/bruschetta.webp"
+        image: "assets/comidas/genericas/bruschetta.webp"
       }
     ]
   },
@@ -220,42 +220,42 @@ const foodGroups = [
         title: "Margarita",
         price: "14,00 €",
         description: "Pizza clásica con tomate, mozzarella y albahaca.",
-        image: "assets/pasta.webp"
+        image: "assets/comidas/genericas/pasta.webp"
       },
       {
         id: "tartufata",
         title: "Tartufata",
         price: "14,00 €",
         description: "Jamón, queso y trufa.",
-        image: "assets/pasta.webp"
+        image: "assets/comidas/genericas/pasta.webp"
       },
       {
         id: "jamon-queso",
         title: "Jamón y queso",
         price: "14,00 €",
         description: "Pizza de jamón y queso.",
-        image: "assets/pasta.webp"
+        image: "assets/comidas/genericas/pasta.webp"
       },
       {
         id: "cuatro-quesos",
         title: "4 quesos",
         price: "14,00 €",
         description: "Pizza con mezcla de cuatro quesos.",
-        image: "assets/pasta.webp"
+        image: "assets/comidas/genericas/pasta.webp"
       },
       {
         id: "peperoni",
         title: "Peperoni",
         price: "14,00 €",
         description: "Pizza con peperoni.",
-        image: "assets/pasta.webp"
+        image: "assets/comidas/genericas/pasta.webp"
       },
       {
         id: "canibal",
         title: "Canibal",
         price: "14,00 €",
         description: "Bacon, peperoni y jamón york.",
-        image: "assets/pasta.webp"
+        image: "assets/comidas/genericas/pasta.webp"
       }
     ]
   },
@@ -266,52 +266,52 @@ const foodGroups = [
     items: [
       {
         id: "ensalada-bonito",
-        title: "Ensalada bonito",
+        title: "Ensalada de boniato",
         price: "10,00 €",
-        description: "Ensalada con bonito.",
-        image: "assets/ensalada.webp"
+        description: "Ración de ensalada de boniato.",
+        image: "assets/comidas/platos-preparados/ensaladadeboniato.webp"
       },
       {
         id: "pollo-asado-patatas",
         title: "Pollo asado con patatas",
         price: "10,00 €",
-        description: "Pollo asado acompañado de patatas.",
-        image: "assets/risotto.webp"
+        description: "Ración de pollo asado acompañado de patatas.",
+        image: "assets/comidas/genericas/risotto.webp"
       },
       {
         id: "costillas-barbacoa",
         title: "Costillas a la barbacoa",
         price: "12,00 €",
-        description: "Costillas con salsa barbacoa.",
-        image: "assets/risotto.webp"
+        description: "Ración de costillas con salsa barbacoa.",
+        image: "assets/comidas/genericas/risotto.webp"
       },
       {
         id: "salmon-teriyaki",
         title: "Salmón Teriyaki",
         price: "10,00 €",
-        description: "Salmón con salsa teriyaki.",
-        image: "assets/salmon.webp"
+        description: "Ración de salmón con salsa teriyaki servido con arroz.",
+        image: "assets/comidas/platos-preparados/salmonteriyakiconarroz.webp"
       },
       {
         id: "pollo-curry",
-        title: "Pollo al curry",
+        title: "Pollo al Curry con arroz",
         price: "10,00 €",
-        description: "Pollo cocinado con salsa curry.",
-        image: "assets/risotto.webp"
+        description: "Ración de pollo al curry servido con arroz.",
+        image: "assets/comidas/genericas/risotto.webp"
       },
       {
         id: "macarrones-bolonesa",
         title: "Macarrones Boloñesa",
         price: "10,00 €",
-        description: "Macarrones con salsa boloñesa.",
-        image: "assets/pasta.webp"
+        description: "Ración de macarrones con salsa boloñesa.",
+        image: "assets/comidas/genericas/pasta.webp"
       },
       {
         id: "paella-valenciana",
         title: "Paella Valenciana",
         price: "10,00 €",
-        description: "Paella valenciana tradicional.",
-        image: "assets/risotto.webp"
+        description: "Ración de paella valenciana tradicional.",
+        image: "assets/comidas/platos-preparados/paella.webp"
       }
     ]
   }
@@ -323,19 +323,33 @@ const beverageGroups = [
     category: "Refrescos",
     shortLabel: "Refrescos",
     items: [
-      { id: "agua", title: "Agua", price: "2,50 €", description: "Agua mineral.", image: "assets/agua.webp" },
-      { id: "agua-gas", title: "Agua gas", price: "3,00 €", description: "Agua con gas.", image: "assets/agua-gas.webp" },
-      { id: "pepsi", title: "Pepsi", price: "3,00 €", description: "Refresco Pepsi.", image: "assets/pepsi.webp" },
-      { id: "pepsi-zero", title: "Pepsi zero", price: "3,00 €", description: "Refresco Pepsi zero.", image: "assets/pepsi-zero.webp" },
-      { id: "schweppes-naranja", title: "Schweppes Naranja", price: "3,00 €", description: "Refresco de naranja.", image: "assets/schweppes-naranja.webp" },
-      { id: "schweppes-limon", title: "Schweppes Limón", price: "3,00 €", description: "Refresco de limón.", image: "assets/schweppes-limon.webp" },
-      { id: "sevenup", title: "Sevenup", price: "3,00 €", description: "Refresco Sevenup.", image: "assets/sevenup.webp" },
-      { id: "tonica-schweppes", title: "Tónica Schweppes", price: "3,00 €", description: "Tónica Schweppes.", image: "assets/tonica-schweppes.webp" },
-      { id: "aquarade-limon", title: "Aquarade limón", price: "3,50 €", description: "Bebida isotónica de limón.", image: "assets/aquarade-limon.webp" },
-      { id: "aquarade-naranja", title: "Aquarade naranja", price: "3,50 €", description: "Bebida isotónica de naranja.", image: "assets/aquarade-naranja.webp" },
-      { id: "lipton-limon", title: "Lipton limón", price: "3,50 €", description: "Té frío de limón.", image: "assets/lipton-limon.webp" },
-      { id: "redbull", title: "Redbull", price: "3,50 €", description: "Bebida energética.", image: "assets/redbull.webp" },
-      { id: "zumos", title: "Zumos", price: "2,50 €", description: "Zumos variados.", image: "assets/zumos.webp" }
+      { id: "agua", title: "Agua", price: "2,50 €", description: "Agua mineral.", image: "assets/bebidas/refrescos/agua.webp" },
+      { id: "agua-gas", title: "Agua con gas", price: "3,00 €", description: "Agua con gas.", image: "assets/bebidas/refrescos/agua-gas.webp" },
+      { id: "pepsi", title: "Pepsi", price: "3,00 €", description: "Refresco Pepsi.", image: "assets/bebidas/refrescos/pepsi.webp" },
+      { id: "pepsi-zero", title: "Pepsi Zero", price: "3,00 €", description: "Refresco Pepsi Zero.", image: "assets/bebidas/refrescos/pepsi-zero.webp" },
+      { id: "schweppes-naranja", title: "Schweppes Naranja", price: "3,00 €", description: "Refresco de naranja.", image: "assets/bebidas/refrescos/schweppes-naranja.webp" },
+      { id: "schweppes-limon", title: "Schweppes Limón", price: "3,00 €", description: "Refresco de limón.", image: "assets/bebidas/refrescos/schweppes-limon.webp" },
+      { id: "sevenup", title: "SevenUp", price: "3,00 €", description: "Refresco SevenUp.", image: "assets/bebidas/refrescos/sevenup.webp" },
+      { id: "tonica-schweppes", title: "Tónica Schweppes", price: "3,00 €", description: "Tónica Schweppes.", image: "assets/bebidas/refrescos/tonica-schweppes.webp" },
+      { id: "aquarade-limon", title: "Aquarade Limón", price: "3,50 €", description: "Bebida isotónica de limón.", image: "assets/bebidas/refrescos/aquarade-limon.webp" },
+      { id: "aquarade-naranja", title: "Aquarade Naranja", price: "3,50 €", description: "Bebida isotónica de naranja.", image: "assets/bebidas/refrescos/aquarade-naranja.webp" },
+      { id: "lipton-limon", title: "Lipton Limón", price: "3,50 €", description: "Té frío de limón.", image: "assets/bebidas/refrescos/lipton-limon.webp" },
+      { id: "redbull", title: "Redbull", price: "3,50 €", description: "Bebida energética.", image: "assets/bebidas/refrescos/redbull.webp" },
+      { id: "zumos", title: "Zumos", price: "2,50 €", description: "Zumos variados.", image: "assets/bebidas/refrescos/zumos.webp" }
+    ]
+  },
+  {
+    id: "cafes",
+    category: "Cafés",
+    shortLabel: "Cafés",
+    items: [
+      { id: "cafe-solo", title: "Café solo", price: "2,00 €", description: "Café solo.", image: "assets/bebidas/cafes/cafe-solo.webp" },
+      { id: "cortado", title: "Cortado", price: "2,30 €", description: "Café cortado.", image: "assets/bebidas/cafes/cortado.webp" },
+      { id: "bombon", title: "Bombón", price: "2,40 €", description: "Café bombón.", image: "assets/bebidas/cafes/bombon.webp" },
+      { id: "cafe-con-leche", title: "Café con leche", price: "2,60 €", description: "Café con leche.", image: "assets/bebidas/cafes/cafe-con-leche.webp" },
+      { id: "americano", title: "Americano", price: "2,30 €", description: "Café americano.", image: "assets/bebidas/cafes/americano.webp" },
+      { id: "infusiones-tes", title: "Infusiones o tés", price: "2,10 €", description: "Infusiones o tés variados.", image: "assets/bebidas/cafes/infusiones-tes.webp" },
+      { id: "carajillo", title: "Carajillo", price: "2,50 €", description: "Carajillo.", image: "assets/bebidas/cafes/carajillo.webp" }
     ]
   },
   {
@@ -343,11 +357,11 @@ const beverageGroups = [
     category: "Cerveza",
     shortLabel: "Cerveza",
     items: [
-      { id: "aguila-dorada", title: "Águila dorada", price: "3,50 €", description: "Cerveza Águila dorada.", image: "assets/aguila-dorada.webp" },
-      { id: "radler", title: "Radler", price: "3,50 €", description: "Cerveza Radler.", image: "assets/radler.webp" },
-      { id: "cerveza-00", title: "Cerveza 0,0", price: "3,50 €", description: "Cerveza sin alcohol.", image: "assets/cerveza-00.webp" },
-      { id: "cerveza-sin-gluten", title: "Cerveza sin gluten", price: "4,00 €", description: "Cerveza sin gluten.", image: "assets/cerveza-sin-gluten.webp" },
-      { id: "amstel-oro-lata", title: "Amstel oro lata", price: "3,50 €", description: "Amstel Oro en lata.", image: "assets/amstel-oro-lata.webp" }
+      { id: "aguila-dorada", title: "Águila dorada", price: "3,50 €", description: "Cerveza Águila dorada.", image: "assets/bebidas/cerveza/cervezacarton.webp" },
+      { id: "radler", title: "Radler", price: "3,50 €", description: "Cerveza Radler.", image: "assets/bebidas/cerveza/cervezacarton.webp" },
+      { id: "cerveza-00", title: "Cerveza 0,0", price: "3,50 €", description: "Cerveza sin alcohol.", image: "assets/bebidas/cerveza/cervezacarton.webp" },
+      { id: "cerveza-sin-gluten", title: "Cerveza sin gluten", price: "4,00 €", description: "Cerveza sin gluten.", image: "assets/bebidas/cerveza/cervezacarton.webp" },
+      { id: "amstel-oro-lata", title: "Amstel oro lata", price: "3,50 €", description: "Amstel Oro en lata.", image: "assets/bebidas/cerveza/amstel-oro-lata.webp" }
     ]
   },
   {
@@ -355,12 +369,12 @@ const beverageGroups = [
     category: "Vermouth y copas",
     shortLabel: "Vermouth",
     items: [
-      { id: "vermouth", title: "Vermouth", price: "5,00 €", description: "Rojo o blanco.", image: "assets/vermouth.webp" },
-      { id: "combinados", title: "Combinados", price: "9,00 €", description: "Masters, Larios 12, Barceló, Brugal, Jony Walker, Moscovscaya, Dyc, Deseen y similares.", image: "assets/combinados.webp" },
-      { id: "premium-desde", title: "Copas premium", price: "Desde 11,00 €", description: "Roku, Bulldog, Martin Miller's, 1888, Zacapa, Black Label, Macallan 12 y similares.", image: "assets/copas-premium.webp" },
-      { id: "chupitos", title: "Chupitos", price: "3,50 €", description: "Chupitos.", image: "assets/chupitos.webp" },
-      { id: "chupitos-premium", title: "Chupitos premium", price: "6,00 €", description: "Chupitos premium.", image: "assets/chupitos-premium.webp" },
-      { id: "licores", title: "Licores", price: "6,00 €", description: "Baileys, licor de hierbas y similares.", image: "assets/licores.webp" }
+      { id: "vermouth", title: "Vermouth", price: "5,00 €", description: "Rojo o blanco.", image: "assets/bebidas/vermouth-copas/vermutyzaguirre.webp" },
+      { id: "combinados", title: "Combinados", price: "9,00 €", description: "Masters, Larios 12, Barceló, Brugal, Jony Walker, Moscovscaya, Dyc, Deseen y similares.", image: "assets/bebidas/vermouth-copas/combinados.webp" },
+      { id: "premium-desde", title: "Copas premium", price: "Desde 11,00 €", description: "Roku, Bulldog, Martin Miller's, 1888, Zacapa, Black Label, Macallan 12 y similares.", image: "assets/bebidas/vermouth-copas/copas-premium.webp" },
+      { id: "chupitos", title: "Chupitos", price: "3,50 €", description: "Chupitos.", image: "assets/bebidas/vermouth-copas/chupitos.webp" },
+      { id: "chupitos-premium", title: "Chupitos premium", price: "6,00 €", description: "Chupitos premium.", image: "assets/bebidas/vermouth-copas/chupitos-premium.webp" },
+      { id: "licores", title: "Licores", price: "6,00 €", description: "Baileys, licor de hierbas y similares.", image: "assets/bebidas/vermouth-copas/licores.webp" }
     ]
   },
   {
@@ -368,9 +382,9 @@ const beverageGroups = [
     category: "Vinos blancos",
     shortLabel: "Blancos",
     items: [
-      { id: "ceremonia-sauvignon-blanc", title: "Ceremonia Sauvignon Blanc", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/ceremonia-sauvignon-blanc.webp" },
-      { id: "ramon-bilbao-verdejo", title: "Ramón Bilbao Verdejo", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino blanco Ramón Bilbao Verdejo.", image: "assets/ramon-bilbao-verdejo.webp" },
-      { id: "paco-lola-albarino", title: "Paco & Lola Albariño", price: "Copa 4,80 € | Botella 22,00 €", description: "Albariño Paco & Lola.", image: "assets/paco-lola-albarino.webp" }
+      { id: "ceremonia-sauvignon-blanc", title: "Ceremonia Sauvignon Blanc", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/bebidas/vinos/ceremonia-sauvignon-blanc.webp" },
+      { id: "ramon-bilbao-verdejo", title: "Ramón Bilbao Verdejo", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino blanco Ramón Bilbao Verdejo.", image: "assets/bebidas/vinos/ramon-bilbao-verdejo.webp" },
+      { id: "paco-lola-albarino", title: "Paco & Lola Albariño", price: "Copa 4,80 € | Botella 22,00 €", description: "Albariño Paco & Lola.", image: "assets/bebidas/vinos/paco-lola-albarino.webp" }
     ]
   },
   {
@@ -378,9 +392,9 @@ const beverageGroups = [
     category: "Vinos tintos",
     shortLabel: "Tintos",
     items: [
-      { id: "ceremonia-cabernet-sauvignon", title: "Ceremonia Cabernet Sauvignon", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/ceremonia-cabernet-sauvignon.webp" },
-      { id: "ramon-bilbao-crianza-rioja", title: "Ramón Bilbao Crianza Rioja", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino tinto Ramón Bilbao Crianza Rioja.", image: "assets/ramon-bilbao-crianza-rioja.webp" },
-      { id: "ceramic-monastrell-vicente-gandia", title: "Ceramic Monastrell Vicente Gandía", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino tinto Monastrell Vicente Gandía.", image: "assets/ceramic-monastrell-vicente-gandia.webp" }
+      { id: "ceremonia-cabernet-sauvignon", title: "Ceremonia Cabernet Sauvignon", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/bebidas/vinos/ceremonia-cabernet-sauvignon.webp" },
+      { id: "ramon-bilbao-crianza-rioja", title: "Ramón Bilbao Crianza Rioja", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino tinto Ramón Bilbao Crianza Rioja.", image: "assets/bebidas/vinos/ramon-bilbao-crianza-rioja.webp" },
+      { id: "ceramic-monastrell-vicente-gandia", title: "Ceramic Monastrell Vicente Gandía", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino tinto Monastrell Vicente Gandía.", image: "assets/bebidas/vinos/ceramic-monastrell-vicente-gandia.webp" }
     ]
   },
   {
@@ -388,7 +402,7 @@ const beverageGroups = [
     category: "Vinos rosados",
     shortLabel: "Rosados",
     items: [
-      { id: "ceremonia-bobal-rose", title: "Ceremonia Bobal Rosé", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/ceremonia-bobal-rose.webp" }
+      { id: "ceremonia-bobal-rose", title: "Ceremonia Bobal Rosé", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/bebidas/vinos/ceremonia-bobal-rose.webp" }
     ]
   },
   {
@@ -396,11 +410,11 @@ const beverageGroups = [
     category: "Cavas y espumosos",
     shortLabel: "Cavas",
     items: [
-      { id: "cava-patacona-brut", title: "Cava Patacona Brut", price: "Copa 5,00 € | Botella 30,00 €", description: "Cava Patacona Brut.", image: "assets/cavapataconabrut.webp" },
-      { id: "cava-lola", title: "Cava Lola", price: "Botella 40,00 €", description: "Bodega Paco & Lola.", image: "assets/cavalola.webp" },
-      { id: "moet-chandon", title: "Moet & Chandon", price: "Botella 110,00 €", description: "Champagne Moet & Chandon.", image: "assets/moet-chandon.webp" },
-      { id: "moet-chandon-rose", title: "Moet & Chandon Rosé", price: "Botella 130,00 €", description: "Champagne Moet & Chandon Rosé.", image: "assets/moet-chandon-rose.webp" },
-      { id: "moet-chandon-ice", title: "Moet & Chandon Ice", price: "Botella 150,00 €", description: "Champagne Moet & Chandon Ice.", image: "assets/moet-chandon-ice.webp" }
+      { id: "cava-patacona-brut", title: "Cava Patacona Brut", price: "Copa 5,00 € | Botella 30,00 €", description: "Cava Patacona Brut.", image: "assets/bebidas/cavas-espumosos/cavapataconabrut.webp" },
+      { id: "cava-lola", title: "Cava Lola", price: "Botella 40,00 €", description: "Bodega Paco & Lola.", image: "assets/bebidas/cavas-espumosos/cavalola.webp" },
+      { id: "moet-chandon", title: "Moet & Chandon", price: "Botella 110,00 €", description: "Champagne Moet & Chandon.", image: "assets/bebidas/cavas-espumosos/moet-chandon.webp" },
+      { id: "moet-chandon-rose", title: "Moet & Chandon Rosé", price: "Botella 130,00 €", description: "Champagne Moet & Chandon Rosé.", image: "assets/bebidas/cavas-espumosos/moet-chandon-rose.webp" },
+      { id: "moet-chandon-ice", title: "Moet & Chandon Ice", price: "Botella 150,00 €", description: "Champagne Moet & Chandon Ice.", image: "assets/bebidas/cavas-espumosos/moet-chandon-ice.webp" }
     ]
   }
 ];
@@ -417,7 +431,7 @@ const granizadosSmoothiesGroups = [
         price: "5,00 €",
         description: "Granizado refrescante de limón.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizado-limon.webp"
+        image: "assets/granizados-smoothies/granizado-limon.webp"
       },
       {
         id: "smoothie-mango",
@@ -425,7 +439,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Smoothie de mango.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/smoothie-mango.webp"
+        image: "assets/granizados-smoothies/smoothie-mango.webp"
       },
       {
         id: "smoothie-coco-pina",
@@ -433,7 +447,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Smoothie de coco y piña.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/smoothie-coco-pina.webp"
+        image: "assets/granizados-smoothies/smoothie-coco-pina.webp"
       },
       {
         id: "smoothie-yogur-melon",
@@ -441,7 +455,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Smoothie de yogur y melón.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/smoothie-yogur-melon.webp"
+        image: "assets/granizados-smoothies/smoothie-yogur-melon.webp"
       },
       {
         id: "frappe-cafe",
@@ -449,7 +463,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Frappé de café.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/frappe-cafe.webp"
+        image: "assets/granizados-smoothies/frappe-cafe.webp"
       },
       {
         id: "frappe-chocolate",
@@ -457,7 +471,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Frappé de chocolate.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/frappe-chocolate.webp"
+        image: "assets/granizados-smoothies/frappe-chocolate.webp"
       },
       {
         id: "frappe-vainilla",
@@ -465,7 +479,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Frappé de vainilla.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/frappe-vainilla.webp"
+        image: "assets/granizados-smoothies/frappe-vainilla.webp"
       }
     ]
   }
@@ -482,42 +496,42 @@ const cocktailGroups = [
         title: "Mojito normal",
         price: "9,00 €",
         description: "Mojito clásico.",
-        image: "assets/mojito-normal.webp"
+        image: "assets/cocteles/mojito-normal.webp"
       },
       {
         id: "mojito-sabores",
         title: "Mojito sabores",
         price: "9,00 €",
         description: "Mojito de sabores: melón, fresa o maracuyá.",
-        image: "assets/mojito-sabores.webp"
+        image: "assets/cocteles/mojito-sabores.webp"
       },
       {
         id: "daikiri-frozen",
         title: "Daikiri Frozen",
         price: "9,00 €",
         description: "Daikiri frozen.",
-        image: "assets/daikiri-frozen.webp"
+        image: "assets/cocteles/daikiri-frozen.webp"
       },
       {
         id: "pina-colada",
         title: "Piña colada",
         price: "9,00 €",
         description: "Cóctel de piña colada.",
-        image: "assets/pina-colada.webp"
+        image: "assets/cocteles/pina-colada.webp"
       },
       {
         id: "caipirinha",
         title: "Caipirinha",
         price: "9,00 €",
         description: "Caipirinha clásica.",
-        image: "assets/caipirinha.webp"
+        image: "assets/cocteles/caipirinha.webp"
       },
       {
         id: "caipiroska",
         title: "Caipiroska",
         price: "9,00 €",
         description: "Caipiroska clásica.",
-        image: "assets/caipiroska.webp"
+        image: "assets/cocteles/caipiroska.webp"
       }
     ]
   }
@@ -534,83 +548,83 @@ const sangriaGroups = [
         title: "Tinto verano vaso",
         price: "5,00 €",
         description: "Tinto de verano servido en vaso.",
-        image: "assets/tinto-verano-vaso.webp"
+        image: "assets/sangrias/tinto-verano-vaso.webp"
       },
       {
         id: "tinto-verano-jarra",
         title: "Tinto verano jarra",
         price: "20,00 €",
         description: "Tinto de verano servido en jarra.",
-        image: "assets/tinto-verano-jarra.webp"
+        image: "assets/sangrias/tinto-verano-jarra.webp"
       },
       {
         id: "sangria-vino-blanco",
         title: "Sangría vino blanco",
         price: "30,00 €",
         description: "Sangría preparada con vino blanco.",
-        image: "assets/sangria-vino-blanco.webp"
+        image: "assets/sangrias/sangria-vino-blanco.webp"
       },
       {
         id: "sangria-vino-tinto",
         title: "Sangría vino tinto",
         price: "30,00 €",
         description: "Sangría preparada con vino tinto.",
-        image: "assets/sangria-vino-tinto.webp"
+        image: "assets/sangrias/sangria-vino-tinto.webp"
       },
       {
         id: "sangria-cava",
         title: "Sangría de cava",
         price: "35,00 €",
         description: "Sangría preparada con cava.",
-        image: "assets/sangria-cava.webp"
+        image: "assets/sangrias/sangria-cava.webp"
       },
       {
         id: "agua-valencia",
         title: "Agua de Valencia",
         price: "35,00 €",
         description: "Cóctel valenciano fresco y cítrico.",
-        image: "assets/agua-valencia.webp"
+        image: "assets/sangrias/agua-valencia.webp"
       }
     ]
   }
 ];
 
 const productImageOverrides = {
-  "desayuno-tradicional": "assets/desayunotradicional.webp",
-  "desayuno-supreme": "assets/desayunosuprem.webp",
-  "frutos-secos": "assets/frutossecos.webp",
-  papas: "assets/papas.webp",
-  aceitunas: "assets/aceitunas.webp",
-  edamame: "assets/edamame.webp",
-  "barqueta-mini-fuets": "assets/barquetademinifuets.webp",
-  "papas-mejillones": "assets/papasconmejillones.webp",
-  "papas-boquerones": "assets/papasconboquerones.webp",
-  "papas-limon-berberechos": "assets/papasfresquitasconlimonyberberechos.webp",
-  "pulpo-pimenton": "assets/latadepulpoalpimenton.webp",
-  "ensaladilla-rusa": "assets/ensaladillarusa.webp",
-  "ajo-arriero": "assets/ajoarriero.webp",
-  "nachos-verano": "assets/nachosdeverano.webp",
-  "nachos-tartar-salmon": "assets/nachoscontartardesalmon.webp",
-  "tabla-jamon-iberico-duroc": "assets/tablajamonibericoduroc.webp",
-  "tabla-quesos-valencianos": "assets/tablaquesosvalencianos.webp",
-  "tortilla-jamon": "assets/minitortillaconjamon.webp",
-  "mejillones-vapor-limon": "assets/mejillonesalvaporconlimon.webp",
-  "bocadillo-escalivada": "assets/bocadilloescalivada.webp",
-  "magro-tomate": "assets/magrocontomate.webp",
-  "lomo-ajos-tiernos": "assets/lomoconajostiernos.webp",
-  margarita: "assets/margarita.webp",
-  tartufata: "assets/tartufata.webp",
-  "jamon-queso": "assets/jamonyqueso.webp",
-  "cuatro-quesos": "assets/4quesos.webp",
-  peperoni: "assets/peperoni.webp",
-  canibal: "assets/canibal.webp",
-  "ensalada-bonito": "assets/ensaladabonito.webp",
-  "pollo-asado-patatas": "assets/polloasadoconpatatas.webp",
-  "costillas-barbacoa": "assets/costillasalabarbacoa.webp",
-  "salmon-teriyaki": "assets/salmonteriyaki.webp",
-  "pollo-curry": "assets/polloalcurryconarroz.webp",
-  "macarrones-bolonesa": "assets/macarronesbolonesa.webp",
-  "paella-valenciana": "assets/paellavalenciana.webp"
+  "desayuno-tradicional": "assets/comidas/desayuno/desayunotradicional.webp",
+  "desayuno-supreme": "assets/comidas/desayuno/desayunosuprem.webp",
+  "frutos-secos": "assets/comidas/aperitivo-picar/frutossecos.webp",
+  papas: "assets/comidas/aperitivo-picar/papas.webp",
+  aceitunas: "assets/comidas/aperitivo-picar/aceitunas.webp",
+  edamame: "assets/comidas/aperitivo-picar/edamame.webp",
+  "barqueta-mini-fuets": "assets/comidas/aperitivo-picar/barquetademinifuets.webp",
+  "papas-mejillones": "assets/comidas/aperitivo-picar/papasconmejillones.webp",
+  "papas-boquerones": "assets/comidas/aperitivo-picar/papasconboquerones.webp",
+  "papas-limon-berberechos": "assets/comidas/aperitivo-picar/papasfresquitasconlimonyberberechos.webp",
+  "pulpo-pimenton": "assets/comidas/tapas/latadepulpoalpimenton.webp",
+  "ensaladilla-rusa": "assets/comidas/tapas/ensaladillarusa.webp",
+  "ajo-arriero": "assets/comidas/tapas/ajoarriero.webp",
+  "nachos-verano": "assets/comidas/tapas/nachosdeverano.webp",
+  "nachos-tartar-salmon": "assets/comidas/tapas/nachoscontartardesalmon.webp",
+  "tabla-jamon-iberico-duroc": "assets/comidas/tapas/tablajamonibericoduroc.webp",
+  "tabla-quesos-valencianos": "assets/comidas/tapas/tablaquesosvalencianos.webp",
+  "tortilla-jamon": "assets/comidas/tapas/minitortillaconjamon.webp",
+  "mejillones-vapor-limon": "assets/comidas/tapas/mejillonesalvaporconlimon.webp",
+  "bocadillo-escalivada": "assets/comidas/bocadillos/bocadilloescalivada.webp",
+  "magro-tomate": "assets/comidas/bocadillos/magrocontomate.webp",
+  "lomo-ajos-tiernos": "assets/comidas/bocadillos/lomoconajostiernos.webp",
+  margarita: "assets/comidas/pizzas/margarita.webp",
+  tartufata: "assets/comidas/pizzas/tartufata.webp",
+  "jamon-queso": "assets/comidas/pizzas/jamonyqueso.webp",
+  "cuatro-quesos": "assets/comidas/pizzas/4quesos.webp",
+  peperoni: "assets/comidas/pizzas/peperoni.webp",
+  canibal: "assets/comidas/pizzas/canibal.webp",
+  "ensalada-bonito": "assets/comidas/platos-preparados/ensaladadeboniato.webp",
+  "pollo-asado-patatas": "assets/comidas/platos-preparados/polloasadoconpatatas.webp",
+  "costillas-barbacoa": "assets/comidas/platos-preparados/costillasalabarbacoa.webp",
+  "salmon-teriyaki": "assets/comidas/platos-preparados/salmonteriyakiconarroz.webp",
+  "pollo-curry": "assets/comidas/platos-preparados/polloalcurryconarroz.webp",
+  "macarrones-bolonesa": "assets/comidas/platos-preparados/macarronesbolonesa.webp",
+  "paella-valenciana": "assets/comidas/platos-preparados/paella.webp"
 };
 
 function applyProductImageOverrides(groups) {
@@ -870,8 +884,28 @@ const allergenData = {
     contains: ["Gluten", "Lácteos"],
     traces: []
   },
+  tartufata: {
+    title: "Pizza tartufata",
+    contains: ["Gluten", "Lácteos"],
+    traces: []
+  },
+  "jamon-queso": {
+    title: "Pizza jamón y queso",
+    contains: ["Gluten", "Lácteos"],
+    traces: []
+  },
   "cuatro-quesos": {
     title: "Pizza 4 quesos",
+    contains: ["Gluten", "Lácteos"],
+    traces: []
+  },
+  peperoni: {
+    title: "Pizza peperoni",
+    contains: ["Gluten", "Lácteos"],
+    traces: []
+  },
+  canibal: {
+    title: "Pizza canibal",
     contains: ["Gluten", "Lácteos"],
     traces: []
   },
@@ -916,14 +950,14 @@ const menuSections = [
   },
   {
     id: "comidas",
-    category: "Comidas",
-    shortLabel: "Comidas",
+    category: "Comida",
+    shortLabel: "Comida",
     groups: foodGroups
   },
   {
     id: "tarifas-hamacas",
-    category: "Tarifas hamacas",
-    shortLabel: "Hamacas",
+    category: "Zona Beach Club",
+    shortLabel: "Zona Beach Club",
     groups: []
   }
 ];
@@ -958,15 +992,15 @@ const translations = {
       infoTitle: "Información adicional",
       selectDaysLabel: "Selecciona días",
       selectTurnLabel: "Selecciona turno",
-      priceLabel: "PRECIO"
+      priceLabel: "Precio por sombrilla y hamacas"
     },
     sections: {
       bebidas: { category: "Bebidas", shortLabel: "Bebidas" },
       cocteles: { category: "Cócteles", shortLabel: "Cócteles" },
       "granizados-smoothies": { category: "Granizados y Smoothies", shortLabel: "Granizados y Smoothies" },
       sangrias: { category: "Sangrías", shortLabel: "Sangrías" },
-      comidas: { category: "Comidas", shortLabel: "Comidas" },
-      "tarifas-hamacas": { category: "Tarifas hamacas", shortLabel: "Hamacas" }
+      comidas: { category: "Comida", shortLabel: "Comida" },
+      "tarifas-hamacas": { category: "Zona Beach Club", shortLabel: "Zona Beach Club" }
     },
     groups: {
       desayuno: { category: "Desayuno", shortLabel: "Desayuno" },
@@ -976,6 +1010,7 @@ const translations = {
       pizzas: { category: "Pizzas al horno de piedra", shortLabel: "Pizzas" },
       platos: { category: "Platos preparados", shortLabel: "Platos" },
       refrescos: { category: "Refrescos", shortLabel: "Refrescos" },
+      cafes: { category: "Cafés", shortLabel: "Cafés" },
       cerveza: { category: "Cerveza", shortLabel: "Cerveza" },
       "vermouth-copas": { category: "Vermouth y copas", shortLabel: "Vermouth" },
       "vinos-blancos": { category: "Vinos blancos", shortLabel: "Blancos" },
@@ -1117,32 +1152,32 @@ const translations = {
         description: "Bacon, peperoni y jamón york."
       },
       "ensalada-bonito": {
-        title: "Ensalada bonito",
-        description: "Ensalada con bonito."
+        title: "Ensalada de boniato",
+        description: "Ración de ensalada de boniato."
       },
       "pollo-asado-patatas": {
         title: "Pollo asado con patatas",
-        description: "Pollo asado acompañado de patatas."
+        description: "Ración de pollo asado acompañado de patatas."
       },
       "costillas-barbacoa": {
         title: "Costillas a la barbacoa",
-        description: "Costillas con salsa barbacoa."
+        description: "Ración de costillas con salsa barbacoa."
       },
       "salmon-teriyaki": {
         title: "Salmón Teriyaki",
-        description: "Salmón con salsa teriyaki."
+        description: "Ración de salmón con salsa teriyaki servido con arroz."
       },
       "pollo-curry": {
-        title: "Pollo al curry",
-        description: "Pollo cocinado con salsa curry."
+        title: "Pollo al Curry con arroz",
+        description: "Ración de pollo al curry servido con arroz."
       },
       "macarrones-bolonesa": {
         title: "Macarrones Boloñesa",
-        description: "Macarrones con salsa boloñesa."
+        description: "Ración de macarrones con salsa boloñesa."
       },
       "paella-valenciana": {
         title: "Paella Valenciana",
-        description: "Paella valenciana tradicional."
+        description: "Ración de paella valenciana tradicional."
       },
       "granizado-limon": {
         title: "Granizado de limón",
@@ -1258,7 +1293,7 @@ const translations = {
       infoTitle: "Additional information",
       selectDaysLabel: "Select days",
       selectTurnLabel: "Select session",
-      priceLabel: "PRICE"
+      priceLabel: "Price per umbrella and sunbeds"
     },
     sections: {
       bebidas: { category: "Drinks", shortLabel: "Drinks" },
@@ -1266,7 +1301,7 @@ const translations = {
       "granizados-smoothies": { category: "Slushies & Smoothies", shortLabel: "Slushies & Smoothies" },
       sangrias: { category: "Sangrias", shortLabel: "Sangrias" },
       comidas: { category: "Food", shortLabel: "Food" },
-      "tarifas-hamacas": { category: "Sunbed rates", shortLabel: "Sunbeds" }
+      "tarifas-hamacas": { category: "Beach Club Zone", shortLabel: "Beach Club" }
     },
     groups: {
       desayuno: { category: "Breakfast", shortLabel: "Breakfast" },
@@ -1276,6 +1311,7 @@ const translations = {
       pizzas: { category: "Stone oven pizzas", shortLabel: "Pizzas" },
       platos: { category: "Prepared dishes", shortLabel: "Dishes" },
       refrescos: { category: "Soft drinks", shortLabel: "Soft drinks" },
+      cafes: { category: "Coffee", shortLabel: "Coffee" },
       cerveza: { category: "Beer", shortLabel: "Beer" },
       "vermouth-copas": { category: "Vermouth & spirits", shortLabel: "Vermouth" },
       "vinos-blancos": { category: "White wines", shortLabel: "Whites" },
@@ -1293,13 +1329,20 @@ const translations = {
       "pepsi-zero": { title: "Pepsi Zero", description: "Pepsi Zero soft drink." },
       "schweppes-naranja": { title: "Schweppes Orange", description: "Orange soft drink." },
       "schweppes-limon": { title: "Schweppes Lemon", description: "Lemon soft drink." },
-      sevenup: { title: "Sevenup", description: "Sevenup soft drink." },
+      sevenup: { title: "SevenUp", description: "SevenUp soft drink." },
       "tonica-schweppes": { title: "Schweppes tonic", description: "Schweppes tonic water." },
-      "aquarade-limon": { title: "Aquarade lemon", description: "Lemon isotonic drink." },
-      "aquarade-naranja": { title: "Aquarade orange", description: "Orange isotonic drink." },
-      "lipton-limon": { title: "Lipton lemon", description: "Lemon iced tea." },
+      "aquarade-limon": { title: "Aquarade Lemon", description: "Lemon isotonic drink." },
+      "aquarade-naranja": { title: "Aquarade Orange", description: "Orange isotonic drink." },
+      "lipton-limon": { title: "Lipton Lemon", description: "Lemon iced tea." },
       redbull: { title: "Red Bull", description: "Energy drink." },
       zumos: { title: "Juices", description: "Assorted juices." },
+      "cafe-solo": { title: "Espresso", description: "Espresso coffee." },
+      cortado: { title: "Cortado", description: "Espresso with a small amount of milk." },
+      bombon: { title: "Bombón coffee", description: "Coffee with condensed milk." },
+      "cafe-con-leche": { title: "Coffee with milk", description: "Coffee with milk." },
+      americano: { title: "Americano", description: "Americano coffee." },
+      "infusiones-tes": { title: "Infusions or teas", description: "Assorted infusions or teas." },
+      carajillo: { title: "Carajillo", description: "Coffee with a touch of spirit." },
       "aguila-dorada": { title: "Águila Dorada", description: "Águila Dorada beer." },
       radler: { title: "Radler", description: "Radler beer." },
       "cerveza-00": { title: "Alcohol-free beer", description: "Alcohol-free beer." },
@@ -1362,13 +1405,13 @@ const translations = {
       "cuatro-quesos": { title: "4 cheeses", description: "Pizza with a blend of four cheeses." },
       peperoni: { title: "Pepperoni", description: "Pizza with pepperoni." },
       canibal: { title: "Canibal", description: "Bacon, pepperoni, and York ham." },
-      "ensalada-bonito": { title: "Tuna salad", description: "Salad with tuna." },
-      "pollo-asado-patatas": { title: "Roast chicken with potatoes", description: "Roast chicken served with potatoes." },
-      "costillas-barbacoa": { title: "BBQ ribs", description: "Ribs with barbecue sauce." },
-      "salmon-teriyaki": { title: "Teriyaki salmon", description: "Salmon with teriyaki sauce." },
-      "pollo-curry": { title: "Chicken curry", description: "Chicken cooked in curry sauce." },
-      "macarrones-bolonesa": { title: "Macaroni Bolognese", description: "Macaroni with Bolognese sauce." },
-      "paella-valenciana": { title: "Valencian paella", description: "Traditional Valencian paella." },
+      "ensalada-bonito": { title: "Sweet potato salad", description: "Individual portion of sweet potato salad." },
+      "pollo-asado-patatas": { title: "Roast chicken with potatoes", description: "Individual portion of roast chicken served with potatoes." },
+      "costillas-barbacoa": { title: "BBQ ribs", description: "Individual portion of ribs with barbecue sauce." },
+      "salmon-teriyaki": { title: "Teriyaki salmon with rice", description: "Individual portion of salmon with teriyaki sauce served with rice." },
+      "pollo-curry": { title: "Chicken curry with rice", description: "Individual portion of chicken curry served with rice." },
+      "macarrones-bolonesa": { title: "Macaroni Bolognese", description: "Individual portion of macaroni with Bolognese sauce." },
+      "paella-valenciana": { title: "Valencian paella", description: "Individual portion of traditional Valencian paella." },
       "granizado-limon": { title: "Lemon slushie", description: "Refreshing lemon slushie.", note: "Alcohol supplement +3 €." },
       "smoothie-mango": { title: "Mango smoothie", description: "Mango smoothie.", note: "Alcohol supplement +3 €." },
       "smoothie-coco-pina": { title: "Coconut and pineapple smoothie", description: "Coconut and pineapple smoothie.", note: "Alcohol supplement +3 €." },
@@ -1419,7 +1462,7 @@ const translations = {
       infoTitle: "Zusätzliche Informationen",
       selectDaysLabel: "Tage auswählen",
       selectTurnLabel: "Turnus auswählen",
-      priceLabel: "PREIS"
+      priceLabel: "Preis pro Sonnenschirm und Liegen"
     },
     sections: {
       bebidas: { category: "Getränke", shortLabel: "Getränke" },
@@ -1427,7 +1470,7 @@ const translations = {
       "granizados-smoothies": { category: "Granitas & Smoothies", shortLabel: "Granitas & Smoothies" },
       sangrias: { category: "Sangrias", shortLabel: "Sangrias" },
       comidas: { category: "Speisen", shortLabel: "Speisen" },
-      "tarifas-hamacas": { category: "Liegenpreise", shortLabel: "Liegen" }
+      "tarifas-hamacas": { category: "Beach Club Bereich", shortLabel: "Beach Club" }
     },
     groups: {
       desayuno: { category: "Frühstück", shortLabel: "Frühstück" },
@@ -1437,6 +1480,7 @@ const translations = {
       pizzas: { category: "Pizzen aus dem Steinofen", shortLabel: "Pizzen" },
       platos: { category: "Zubereitete Gerichte", shortLabel: "Gerichte" },
       refrescos: { category: "Erfrischungsgetränke", shortLabel: "Softdrinks" },
+      cafes: { category: "Kaffee", shortLabel: "Kaffee" },
       cerveza: { category: "Bier", shortLabel: "Bier" },
       "vermouth-copas": { category: "Wermut & Longdrinks", shortLabel: "Wermut" },
       "vinos-blancos": { category: "Weißweine", shortLabel: "Weißweine" },
@@ -1454,13 +1498,20 @@ const translations = {
       "pepsi-zero": { title: "Pepsi Zero", description: "Pepsi Zero Erfrischungsgetränk." },
       "schweppes-naranja": { title: "Schweppes Orange", description: "Orangen-Erfrischungsgetränk." },
       "schweppes-limon": { title: "Schweppes Zitrone", description: "Zitronen-Erfrischungsgetränk." },
-      sevenup: { title: "Sevenup", description: "Sevenup-Erfrischungsgetränk." },
+      sevenup: { title: "SevenUp", description: "SevenUp-Erfrischungsgetränk." },
       "tonica-schweppes": { title: "Schweppes Tonic", description: "Schweppes Tonic Water." },
       "aquarade-limon": { title: "Aquarade Zitrone", description: "Isotonisches Getränk mit Zitrone." },
       "aquarade-naranja": { title: "Aquarade Orange", description: "Isotonisches Getränk mit Orange." },
       "lipton-limon": { title: "Lipton Zitrone", description: "Zitronen-Eistee." },
       redbull: { title: "Red Bull", description: "Energy Drink." },
       zumos: { title: "Säfte", description: "Verschiedene Säfte." },
+      "cafe-solo": { title: "Espresso", description: "Espresso." },
+      cortado: { title: "Cortado", description: "Espresso mit etwas Milch." },
+      bombon: { title: "Café Bombón", description: "Kaffee mit Kondensmilch." },
+      "cafe-con-leche": { title: "Milchkaffee", description: "Kaffee mit Milch." },
+      americano: { title: "Americano", description: "Americano-Kaffee." },
+      "infusiones-tes": { title: "Aufgüsse oder Tees", description: "Verschiedene Aufgüsse oder Tees." },
+      carajillo: { title: "Carajillo", description: "Kaffee mit einem Schuss Spirituose." },
       "aguila-dorada": { title: "Águila Dorada", description: "Águila-Dorada-Bier." },
       radler: { title: "Radler", description: "Radler-Bier." },
       "cerveza-00": { title: "Alkoholfreies Bier", description: "Alkoholfreies Bier." },
@@ -1523,13 +1574,13 @@ const translations = {
       "cuatro-quesos": { title: "4 Käse", description: "Pizza mit einer Mischung aus vier Käsesorten." },
       peperoni: { title: "Peperoni", description: "Pizza mit Peperoni." },
       canibal: { title: "Canibal", description: "Bacon, Peperoni und York-Schinken." },
-      "ensalada-bonito": { title: "Thunfischsalat", description: "Salat mit Thunfisch." },
-      "pollo-asado-patatas": { title: "Brathähnchen mit Kartoffeln", description: "Brathähnchen mit Kartoffeln." },
-      "costillas-barbacoa": { title: "BBQ-Rippchen", description: "Rippchen mit Barbecue-Sauce." },
-      "salmon-teriyaki": { title: "Teriyaki-Lachs", description: "Lachs mit Teriyaki-Sauce." },
-      "pollo-curry": { title: "Hähnchen-Curry", description: "Hähnchen in Currysauce." },
-      "macarrones-bolonesa": { title: "Makkaroni Bolognese", description: "Makkaroni mit Bolognese-Sauce." },
-      "paella-valenciana": { title: "Valencianische Paella", description: "Traditionelle valencianische Paella." },
+      "ensalada-bonito": { title: "Süßkartoffelsalat", description: "Einzelportion Süßkartoffelsalat." },
+      "pollo-asado-patatas": { title: "Brathähnchen mit Kartoffeln", description: "Einzelportion Brathähnchen mit Kartoffeln." },
+      "costillas-barbacoa": { title: "BBQ-Rippchen", description: "Einzelportion Rippchen mit Barbecue-Sauce." },
+      "salmon-teriyaki": { title: "Teriyaki-Lachs mit Reis", description: "Einzelportion Lachs mit Teriyaki-Sauce und Reis." },
+      "pollo-curry": { title: "Hähnchen-Curry mit Reis", description: "Einzelportion Hähnchen-Curry mit Reis." },
+      "macarrones-bolonesa": { title: "Makkaroni Bolognese", description: "Einzelportion Makkaroni mit Bolognese-Sauce." },
+      "paella-valenciana": { title: "Valencianische Paella", description: "Einzelportion traditionelle valencianische Paella." },
       "granizado-limon": { title: "Zitronen-Granita", description: "Erfrischende Zitronen-Granita.", note: "Aufpreis mit Alkohol: 3 €." },
       "smoothie-mango": { title: "Mango-Smoothie", description: "Mango-Smoothie.", note: "Aufpreis mit Alkohol: 3 €." },
       "smoothie-coco-pina": { title: "Kokos-Ananas-Smoothie", description: "Kokos-Ananas-Smoothie.", note: "Aufpreis mit Alkohol: 3 €." },
@@ -1560,19 +1611,20 @@ const languageNames = {
 };
 
 const groupLinearts = {
-  refrescos: "assets/refrescoart.webp",
-  cerveza: "assets/cervezaart.webp",
-  "vermouth-copas": "assets/vermouthycopasart.webp",
-  "vinos-blancos": "assets/vinosblancosart.webp",
-  "vinos-tintos": "assets/vinostintosart.webp",
-  "vinos-rosados": "assets/vinosrosadosart.webp",
-  "cavas-espumosos": "assets/cavasyespumososart.webp",
-  desayuno: "assets/desayunoart.webp",
-  picar: "assets/aperitivoypicarart.webp",
-  tapas: "assets/tapasart.webp",
-  bocadillos: "assets/bocadillosart.webp",
-  pizzas: "assets/pizzaart.webp",
-  platos: "assets/platospreparadosart.webp"
+  refrescos: "assets/linearts/bebidas/refrescoart.webp",
+  cafes: "assets/linearts/bebidas/cafesart.webp",
+  cerveza: "assets/linearts/bebidas/cervezaart.webp",
+  "vermouth-copas": "assets/linearts/bebidas/vermouthycopasart.webp",
+  "vinos-blancos": "assets/linearts/bebidas/vinosblancosart.webp",
+  "vinos-tintos": "assets/linearts/bebidas/vinostintosart.webp",
+  "vinos-rosados": "assets/linearts/bebidas/vinosrosadosart.webp",
+  "cavas-espumosos": "assets/linearts/bebidas/cavasyespumososart.webp",
+  desayuno: "assets/linearts/comidas/desayunoart.webp",
+  picar: "assets/linearts/comidas/aperitivoypicarart.webp",
+  tapas: "assets/linearts/comidas/tapasart.webp",
+  bocadillos: "assets/linearts/comidas/bocadillosart.webp",
+  pizzas: "assets/linearts/comidas/pizzaart.webp",
+  platos: "assets/linearts/comidas/platospreparadosart.webp"
 };
 
 const topTabs = document.querySelector("#topTabs");
@@ -1759,7 +1811,7 @@ function createAllergenButton(item, itemText) {
   button.className = "allergen-trigger";
   button.type = "button";
   button.setAttribute("aria-label", `Ver alérgenos de ${itemText.title}`);
-  icon.src = "assets/precaucion1.webp";
+  icon.src = "assets/ui/icons/precaucion1.webp";
   icon.alt = "";
   icon.loading = "lazy";
   icon.decoding = "async";
@@ -2072,7 +2124,7 @@ function createHamacaHeroCard(activePeriod, activeTariff) {
   periodPill.className = "hamaca-period-pill";
   drinksBlock.className = "hamaca-drinks-block";
 
-  image.src = "assets/hamaca1.webp";
+  image.src = "assets/hamacas/hamaca1.webp";
   image.alt = "Hamacas frente al mar en Tavola Chiringo";
   image.loading = "lazy";
   image.decoding = "async";

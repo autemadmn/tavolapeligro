@@ -43,7 +43,7 @@ body::after {
 
 body::before {
   z-index: -2;
-  background: url("assets/fondotavola.webp") center top / cover no-repeat;
+  background: url("assets/fondos/fondotavola.webp") center top / cover no-repeat;
 }
 
 body::after {
@@ -1081,7 +1081,7 @@ h1 {
   padding: 26px;
   background:
     linear-gradient(90deg, rgba(255, 250, 242, 0.88), rgba(255, 250, 242, 0.7)),
-    url("assets/fondoconcha.webp") right center / cover no-repeat;
+    url("assets/fondos/fondoconcha.webp") right center / cover no-repeat;
 }
 
 .preview-copy p:first-child {
@@ -1155,8 +1155,12 @@ h1 {
 .image-lightbox-panel {
   display: grid;
   place-items: center;
-  max-width: min(92vw, 920px);
-  max-height: min(78vh, 760px);
+  width: min(92vw, 76vh, 720px);
+  height: min(92vw, 76vh, 720px);
+  overflow: hidden;
+  border-radius: 18px;
+  background: #fff7ea;
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.34);
   opacity: 0;
   transform: translateY(12px) scale(0.96);
   transition: opacity 220ms ease, transform 260ms cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -1169,12 +1173,11 @@ h1 {
 
 .image-lightbox-img {
   display: block;
-  width: auto;
-  max-width: min(92vw, 920px);
-  max-height: min(76vh, 760px);
-  border-radius: 18px;
-  object-fit: contain;
-  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.34);
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-fit: cover;
+  object-position: center;
   user-select: none;
 }
 
@@ -1231,7 +1234,7 @@ h1 {
   border-radius: 18px;
   background:
     linear-gradient(90deg, rgba(255, 250, 242, 0.94), rgba(255, 250, 242, 0.78)),
-    url("assets/fondoconcha.webp") right center / cover no-repeat;
+    url("assets/fondos/fondoconcha.webp") right center / cover no-repeat;
   box-shadow: 0 28px 80px rgba(0, 0, 0, 0.3);
   opacity: 0;
   transform: translateY(12px) scale(0.96);
@@ -1496,7 +1499,10 @@ h1 {
     z-index: 5;
     order: -1;
     display: grid;
-    grid-template-columns: minmax(132px, 42%) 1fr;
+    grid-template-columns: 184px 1fr;
+    height: 184px;
+    min-height: 184px;
+    overflow: hidden;
     margin-inline: -1px;
   }
 
@@ -1514,7 +1520,8 @@ h1 {
   }
 
   .image-frame {
-    min-height: 184px;
+    height: 100%;
+    min-height: 0;
     aspect-ratio: auto;
   }
 
@@ -1532,9 +1539,13 @@ h1 {
   }
 
   .preview-copy h2 {
+    display: -webkit-box;
+    overflow: hidden;
     margin-bottom: 6px;
     font-size: clamp(1.3rem, 6vw, 2rem);
     line-height: 1.05;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
   }
 
   .preview-copy span {
@@ -1549,6 +1560,31 @@ h1 {
     line-height: 1.45;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
+  }
+
+  .dish-note {
+    display: -webkit-box;
+    overflow: hidden;
+    margin-top: 8px;
+    font-size: 0.78rem;
+    line-height: 1.25;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+
+  .dish-note.is-hidden {
+    display: none;
+  }
+
+  .photo-disclaimer {
+    margin-top: 6px;
+    font-size: 0.72rem;
+    line-height: 1.25;
+  }
+
+  .image-lightbox-panel {
+    width: min(calc(100vw - 32px), 64vh, 620px);
+    height: min(calc(100vw - 32px), 64vh, 620px);
   }
 
   .dish {
@@ -1613,11 +1649,13 @@ h1 {
   }
 
   .dish-preview {
-    grid-template-columns: 142px 1fr;
+    grid-template-columns: 172px 1fr;
+    height: 172px;
+    min-height: 172px;
   }
 
   .image-frame {
-    min-height: 172px;
+    min-height: 0;
   }
 
   .image-lightbox {
@@ -1630,9 +1668,9 @@ h1 {
     padding: 18px 12px calc(var(--bottom-nav) + 22px);
   }
 
-  .image-lightbox-img {
-    max-width: calc(100vw - 24px);
-    max-height: calc(100vh - var(--bottom-nav) - 92px);
+  .image-lightbox-panel {
+    width: min(calc(100vw - 24px), calc(100vh - var(--bottom-nav) - 92px));
+    height: min(calc(100vw - 24px), calc(100vh - var(--bottom-nav) - 92px));
     border-radius: 18px;
   }
 
