@@ -328,12 +328,12 @@ const beverageGroups = [
       { id: "pepsi", title: "Pepsi", price: "3,00 €", description: "Refresco Pepsi.", image: "assets/bebidas/refrescos/pepsilata.webp" },
       { id: "pepsi-zero", title: "Pepsi Zero", price: "3,00 €", description: "Refresco Pepsi Zero.", image: "assets/bebidas/refrescos/pepsizerolata.webp" },
       { id: "schweppes-naranja", title: "Schweppes Naranja", price: "3,00 €", description: "Refresco de naranja.", image: "assets/bebidas/refrescos/shweppesnaranjalata.webp" },
-      { id: "schweppes-limon", title: "Schweppes Limón", price: "3,00 €", description: "Refresco de limón.", image: "assets/bebidas/refrescos/shweppeslimónlata.webp" },
+      { id: "schweppes-limon", title: "Schweppes Limón", price: "3,00 €", description: "Refresco de limón.", image: "assets/bebidas/refrescos/shweppeslimonlata.webp" },
       { id: "sevenup", title: "SevenUp", price: "3,00 €", description: "Refresco SevenUp.", image: "assets/bebidas/refrescos/sevenuplata.webp" },
-      { id: "tonica-schweppes", title: "Tónica Schweppes", price: "3,00 €", description: "Tónica Schweppes.", image: "assets/bebidas/refrescos/tónicashweppeslata.webp" },
-      { id: "aquarade-limon", title: "Aquarade Limón", price: "3,50 €", description: "Bebida isotónica de limón.", image: "assets/bebidas/refrescos/aquaradelimónlata.webp" },
+      { id: "tonica-schweppes", title: "Tónica Schweppes", price: "3,00 €", description: "Tónica Schweppes.", image: "assets/bebidas/refrescos/tonicashweppeslata.webp" },
+      { id: "aquarade-limon", title: "Aquarade Limón", price: "3,50 €", description: "Bebida isotónica de limón.", image: "assets/bebidas/refrescos/aquaradelimonlata.webp" },
       { id: "aquarade-naranja", title: "Aquarade Naranja", price: "3,50 €", description: "Bebida isotónica de naranja.", image: "assets/bebidas/refrescos/aquaradenaranjalata.webp" },
-      { id: "lipton-limon", title: "Lipton Limón", price: "3,50 €", description: "Té frío de limón.", image: "assets/bebidas/refrescos/liptonlimónlata.webp" },
+      { id: "lipton-limon", title: "Lipton Limón", price: "3,50 €", description: "Té frío de limón.", image: "assets/bebidas/refrescos/liptonlimonlata.webp" },
       { id: "redbull", title: "Redbull", price: "3,50 €", description: "Bebida energética.", image: "assets/bebidas/refrescos/redbull.webp" },
       { id: "zumos", title: "Zumos", price: "2,50 €", description: "Zumos variados.", image: "assets/bebidas/refrescos/zumoslata.webp" }
     ]
