@@ -384,7 +384,7 @@ const beverageGroups = [
     items: [
       { id: "ceremonia-sauvignon-blanc", title: "Ceremonia Sauvignon Blanc", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/bebidas/vinos/ceremonia-sauvignon-blanc.webp" },
       { id: "ramon-bilbao-verdejo", title: "Ramón Bilbao Verdejo", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino blanco Ramón Bilbao Verdejo.", image: "assets/bebidas/vinos/ramon-bilbao-verdejo.webp" },
-      { id: "paco-lola-albarino", title: "Paco & Lola Albariño", price: "Copa 4,80 € | Botella 22,00 €", description: "Albariño Paco & Lola.", image: "assets/bebidas/vinos/paco-lola-albarino.webp" }
+      { id: "paco-lola-albarino", title: "Paco & Lola N12", price: "Copa 4,80 € | Botella 22,00 €", description: "Paco & Lola N12.", image: "assets/bebidas/vinos/pl.webp" }
     ]
   },
   {
@@ -1356,7 +1356,7 @@ const translations = {
       licores: { title: "Liqueurs", description: "Baileys, herbal liqueur and similar options." },
       "ceremonia-sauvignon-blanc": { title: "Ceremonia Sauvignon Blanc", price: "Glass 4,00 € | Bottle 20,00 €", description: "Vicente Gandía winery." },
       "ramon-bilbao-verdejo": { title: "Ramón Bilbao Verdejo", price: "Glass 4,80 € | Bottle 22,00 €", description: "Ramón Bilbao Verdejo white wine." },
-      "paco-lola-albarino": { title: "Paco & Lola Albariño", price: "Glass 4,80 € | Bottle 22,00 €", description: "Paco & Lola Albariño." },
+      "paco-lola-albarino": { title: "Paco & Lola N12", price: "Glass 4,80 € | Bottle 22,00 €", description: "Paco & Lola N12." },
       "ceremonia-cabernet-sauvignon": { title: "Ceremonia Cabernet Sauvignon", price: "Glass 4,00 € | Bottle 20,00 €", description: "Vicente Gandía winery." },
       "ramon-bilbao-crianza-rioja": { title: "Ramón Bilbao Crianza Rioja", price: "Glass 4,80 € | Bottle 22,00 €", description: "Ramón Bilbao Crianza Rioja red wine." },
       "ceramic-monastrell-vicente-gandia": { title: "Ceramic Monastrell Vicente Gandía", price: "Glass 4,80 € | Bottle 22,00 €", description: "Vicente Gandía Monastrell red wine." },
@@ -1525,7 +1525,7 @@ const translations = {
       licores: { title: "Liköre", description: "Baileys, Kräuterlikör und ähnliche Optionen." },
       "ceremonia-sauvignon-blanc": { title: "Ceremonia Sauvignon Blanc", price: "Glas 4,00 € | Flasche 20,00 €", description: "Weingut Vicente Gandía." },
       "ramon-bilbao-verdejo": { title: "Ramón Bilbao Verdejo", price: "Glas 4,80 € | Flasche 22,00 €", description: "Weißwein Ramón Bilbao Verdejo." },
-      "paco-lola-albarino": { title: "Paco & Lola Albariño", price: "Glas 4,80 € | Flasche 22,00 €", description: "Albariño Paco & Lola." },
+      "paco-lola-albarino": { title: "Paco & Lola N12", price: "Glas 4,80 € | Flasche 22,00 €", description: "Paco & Lola N12." },
       "ceremonia-cabernet-sauvignon": { title: "Ceremonia Cabernet Sauvignon", price: "Glas 4,00 € | Flasche 20,00 €", description: "Weingut Vicente Gandía." },
       "ramon-bilbao-crianza-rioja": { title: "Ramón Bilbao Crianza Rioja", price: "Glas 4,80 € | Flasche 22,00 €", description: "Rotwein Ramón Bilbao Crianza Rioja." },
       "ceramic-monastrell-vicente-gandia": { title: "Ceramic Monastrell Vicente Gandía", price: "Glas 4,80 € | Flasche 22,00 €", description: "Monastrell-Rotwein von Vicente Gandía." },
