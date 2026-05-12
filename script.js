@@ -384,7 +384,7 @@ const beverageGroups = [
     items: [
       { id: "ceremonia-sauvignon-blanc", title: "Ceremonia Sauvignon Blanc", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/bebidas/vinos/ceremonia-sauvignon-blanc.webp" },
       { id: "ramon-bilbao-verdejo", title: "Ramón Bilbao Verdejo", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino blanco Ramón Bilbao Verdejo.", image: "assets/bebidas/vinos/ramon-bilbao-verdejo.webp" },
-      { id: "paco-lola-albarino", title: "Paco & Lola N12", price: "Copa 4,80 € | Botella 22,00 €", description: "Paco & Lola N12.", image: "assets/bebidas/vinos/pl.webp" }
+      { id: "paco-lola-albarino", title: "Paco & Lola N12", price: "Copa 4,80 € | Botella 22,00 €", description: "Albariño Paco & Lola.", image: "assets/bebidas/vinos/pl.webp" }
     ]
   },
   {
