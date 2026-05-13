@@ -427,7 +427,7 @@ const granizadosSmoothiesGroups = [
     items: [
       {
         id: "granizado-limon",
-        title: "Granizado de limón",
+        title: "Granizado Limón",
         price: "5,00 €",
         description: "Granizado refrescante de limón natural.",
         note: "Suplemento 3 € con alcohol.",
@@ -517,14 +517,14 @@ const cocktailGroups = [
     items: [
       {
         id: "mojito-normal",
-        title: "Mojito normal",
+        title: "Mojito",
         price: "9,00 €",
         description: "El cóctel cubano más clásico. Ron blanco, lima, hierbabuena, azúcar y soda.",
         image: "assets/cocteles/mojito-normal.webp"
       },
       {
         id: "mojito-sabores",
-        title: "Mojito sabores",
+        title: "Mojito Sabores",
         price: "9,00 €",
         description: "La versión afrutada y refrescante del mojito. Ron blanco, fruta a elegir, lima, hierbabuena y soda.",
         image: "assets/cocteles/mojito-sabores.webp"
@@ -545,7 +545,7 @@ const cocktailGroups = [
       },
       {
         id: "pina-colada",
-        title: "Piña colada",
+        title: "Piña Colada",
         price: "9,00 €",
         description: "El cóctel tropical más cremoso. Ron, crema de coco y zumo de piña.",
         image: "assets/cocteles/pina-colada.webp"
@@ -1239,7 +1239,7 @@ const translations = {
         description: "Ración de paella valenciana tradicional."
       },
       "granizado-limon": {
-        title: "Granizado de limón",
+        title: "Granizado Limón",
         description: "Granizado refrescante de limón natural.",
         note: "Suplemento 3 € con alcohol."
       },
@@ -1289,11 +1289,11 @@ const translations = {
         note: "Suplemento 3 € con alcohol."
       },
       "mojito-normal": {
-        title: "Mojito normal",
+        title: "Mojito",
         description: "El cóctel cubano más clásico. Ron blanco, lima, hierbabuena, azúcar y soda."
       },
       "mojito-sabores": {
-        title: "Mojito sabores",
+        title: "Mojito Sabores",
         description: "La versión afrutada y refrescante del mojito. Ron blanco, fruta a elegir, lima, hierbabuena y soda."
       },
       "daikiri-frozen": {
@@ -1305,7 +1305,7 @@ const translations = {
         description: "La versión afrutada del daiquiri clásico. Ron blanco, fruta a elegir, lima y azúcar."
       },
       "pina-colada": {
-        title: "Piña colada",
+        title: "Piña Colada",
         description: "El cóctel tropical más cremoso. Ron, crema de coco y zumo de piña."
       },
       caipirinha: {
