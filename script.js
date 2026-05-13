@@ -422,64 +422,88 @@ const beverageGroups = [
 const granizadosSmoothiesGroups = [
   {
     id: "granizados-smoothies-frappes",
-    category: "Granizados, Smoothies y Frappés",
-    shortLabel: "Granizados",
+    category: "Smoothies y Frappés",
+    shortLabel: "Smoothies",
     items: [
       {
         id: "granizado-limon",
         title: "Granizado de limón",
         price: "5,00 €",
-        description: "Granizado refrescante de limón.",
+        description: "Granizado refrescante de limón natural.",
         note: "Suplemento 3 € con alcohol.",
         image: "assets/granizados-smoothies/granizado-limon.webp"
+      },
+      {
+        id: "smoothie-pina-coco",
+        title: "Smoothie Piña & Coco",
+        price: "7,00 €",
+        description: "Smoothie tropical de piña y coco.",
+        note: "Suplemento 3 € con alcohol.",
+        image: "assets/granizados-smoothies/smoothie-pina-coco.webp"
+      },
+      {
+        id: "smoothie-melon",
+        title: "Smoothie Melón",
+        price: "7,00 €",
+        description: "Smoothie suave y refrescante de melón.",
+        note: "Suplemento 3 € con alcohol.",
+        image: "assets/granizados-smoothies/smoothie-melon.webp"
+      },
+      {
+        id: "smoothie-maracuya-mango",
+        title: "Smoothie Maracuyá & Mango",
+        price: "7,00 €",
+        description: "Smoothie exótico de maracuyá y mango.",
+        note: "Suplemento 3 € con alcohol.",
+        image: "assets/granizados-smoothies/smoothie-maracuya-mango.webp"
       },
       {
         id: "smoothie-mango",
         title: "Smoothie Mango",
         price: "7,00 €",
-        description: "Smoothie de mango.",
+        description: "Smoothie cremoso de mango.",
         note: "Suplemento 3 € con alcohol.",
         image: "assets/granizados-smoothies/smoothie-mango.webp"
       },
       {
-        id: "smoothie-coco-pina",
-        title: "Smoothie Coco y piña",
-        price: "7,00 €",
-        description: "Smoothie de coco y piña.",
-        note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies/smoothie-coco-pina.webp"
-      },
-      {
-        id: "smoothie-yogur-melon",
-        title: "Smoothie Yogur y melón",
-        price: "7,00 €",
-        description: "Smoothie de yogur y melón.",
-        note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies/smoothie-yogur-melon.webp"
-      },
-      {
-        id: "frappe-cafe",
-        title: "Frappé café",
-        price: "7,00 €",
-        description: "Frappé de café.",
-        note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies/frappe-cafe.webp"
-      },
-      {
         id: "frappe-chocolate",
-        title: "Frappé chocolate",
+        title: "Frappé Chocolate",
         price: "7,00 €",
-        description: "Frappé de chocolate.",
+        description: "Frappé cremoso de chocolate.",
         note: "Suplemento 3 € con alcohol.",
         image: "assets/granizados-smoothies/frappe-chocolate.webp"
       },
       {
         id: "frappe-vainilla",
-        title: "Frappé vainilla",
+        title: "Frappé Vainilla",
         price: "7,00 €",
-        description: "Frappé de vainilla.",
+        description: "Frappé suave de vainilla.",
         note: "Suplemento 3 € con alcohol.",
         image: "assets/granizados-smoothies/frappe-vainilla.webp"
+      },
+      {
+        id: "frappe-yogurt",
+        title: "Frappé Yogurt",
+        price: "7,00 €",
+        description: "Frappé fresco de yogurt.",
+        note: "Suplemento 3 € con alcohol.",
+        image: "assets/granizados-smoothies/frappe-yogurt.webp"
+      },
+      {
+        id: "frappe-cafe",
+        title: "Frappé Café",
+        price: "7,00 €",
+        description: "Frappé intenso de café.",
+        note: "Suplemento 3 € con alcohol.",
+        image: "assets/granizados-smoothies/frappe-cafe.webp"
+      },
+      {
+        id: "frappe-cafe-bayleis",
+        title: "Frappé Café Bayleis",
+        price: "9,00 €",
+        description: "Frappé de café con toque de Bayleis.",
+        note: "Suplemento 3 € con alcohol.",
+        image: "assets/granizados-smoothies/frappe-cafe-bayleis.webp"
       }
     ]
   }
@@ -543,7 +567,7 @@ const cocktailGroups = [
       {
         id: "aperol-spritz",
         title: "Aperol Spritz",
-        price: "9,00 €",
+        price: "7,00 €",
         description: "El spritz original italiano. Prosecco, Aperol, soda y una rodaja de naranja.",
         image: "assets/cocteles/aperolspritz.webp"
       },
@@ -973,8 +997,8 @@ const menuSections = [
   },
   {
     id: "granizados-smoothies",
-    category: "Granizados y Smoothies",
-    shortLabel: "Granizados y Smoothies",
+    category: "Smoothies y Frappés",
+    shortLabel: "Smoothies y Frappés",
     groups: granizadosSmoothiesGroups
   },
   {
@@ -1032,7 +1056,7 @@ const translations = {
     sections: {
       bebidas: { category: "Bebidas", shortLabel: "Bebidas" },
       cocteles: { category: "Cócteles", shortLabel: "Cócteles" },
-      "granizados-smoothies": { category: "Granizados y Smoothies", shortLabel: "Granizados y Smoothies" },
+      "granizados-smoothies": { category: "Smoothies y Frappés", shortLabel: "Smoothies y Frappés" },
       sangrias: { category: "Sangrías", shortLabel: "Sangrías" },
       comidas: { category: "Comida", shortLabel: "Comida" },
       "tarifas-hamacas": { category: "Zona Beach Club", shortLabel: "Zona Beach Club" }
@@ -1052,7 +1076,7 @@ const translations = {
       "vinos-tintos": { category: "Vinos tintos", shortLabel: "Tintos" },
       "vinos-rosados": { category: "Vinos rosados", shortLabel: "Rosados" },
       "cavas-espumosos": { category: "Cavas y espumosos", shortLabel: "Cavas" },
-      "granizados-smoothies-frappes": { category: "Granizados, Smoothies y Frappés", shortLabel: "Granizados" },
+      "granizados-smoothies-frappes": { category: "Smoothies y Frappés", shortLabel: "Smoothies" },
       "cocteles-clasicos": { category: "Cócteles", shortLabel: "Cócteles" },
       "sangrias-carta": { category: "Sangrías", shortLabel: "Sangrías" }
     },
@@ -1216,37 +1240,52 @@ const translations = {
       },
       "granizado-limon": {
         title: "Granizado de limón",
-        description: "Granizado refrescante de limón.",
+        description: "Granizado refrescante de limón natural.",
+        note: "Suplemento 3 € con alcohol."
+      },
+      "smoothie-pina-coco": {
+        title: "Smoothie Piña & Coco",
+        description: "Smoothie tropical de piña y coco.",
+        note: "Suplemento 3 € con alcohol."
+      },
+      "smoothie-melon": {
+        title: "Smoothie Melón",
+        description: "Smoothie suave y refrescante de melón.",
+        note: "Suplemento 3 € con alcohol."
+      },
+      "smoothie-maracuya-mango": {
+        title: "Smoothie Maracuyá & Mango",
+        description: "Smoothie exótico de maracuyá y mango.",
         note: "Suplemento 3 € con alcohol."
       },
       "smoothie-mango": {
         title: "Smoothie Mango",
-        description: "Smoothie de mango.",
-        note: "Suplemento 3 € con alcohol."
-      },
-      "smoothie-coco-pina": {
-        title: "Smoothie Coco y piña",
-        description: "Smoothie de coco y piña.",
-        note: "Suplemento 3 € con alcohol."
-      },
-      "smoothie-yogur-melon": {
-        title: "Smoothie Yogur y melón",
-        description: "Smoothie de yogur y melón.",
-        note: "Suplemento 3 € con alcohol."
-      },
-      "frappe-cafe": {
-        title: "Frappé café",
-        description: "Frappé de café.",
+        description: "Smoothie cremoso de mango.",
         note: "Suplemento 3 € con alcohol."
       },
       "frappe-chocolate": {
-        title: "Frappé chocolate",
-        description: "Frappé de chocolate.",
+        title: "Frappé Chocolate",
+        description: "Frappé cremoso de chocolate.",
         note: "Suplemento 3 € con alcohol."
       },
       "frappe-vainilla": {
-        title: "Frappé vainilla",
-        description: "Frappé de vainilla.",
+        title: "Frappé Vainilla",
+        description: "Frappé suave de vainilla.",
+        note: "Suplemento 3 € con alcohol."
+      },
+      "frappe-yogurt": {
+        title: "Frappé Yogurt",
+        description: "Frappé fresco de yogurt.",
+        note: "Suplemento 3 € con alcohol."
+      },
+      "frappe-cafe": {
+        title: "Frappé Café",
+        description: "Frappé intenso de café.",
+        note: "Suplemento 3 € con alcohol."
+      },
+      "frappe-cafe-bayleis": {
+        title: "Frappé Café Bayleis",
+        description: "Frappé de café con toque de Bayleis.",
         note: "Suplemento 3 € con alcohol."
       },
       "mojito-normal": {
@@ -1353,7 +1392,7 @@ const translations = {
     sections: {
       bebidas: { category: "Drinks", shortLabel: "Drinks" },
       cocteles: { category: "Cocktails", shortLabel: "Cocktails" },
-      "granizados-smoothies": { category: "Slushies & Smoothies", shortLabel: "Slushies & Smoothies" },
+      "granizados-smoothies": { category: "Smoothies & Frappés", shortLabel: "Smoothies & Frappés" },
       sangrias: { category: "Sangrias", shortLabel: "Sangrias" },
       comidas: { category: "Food", shortLabel: "Food" },
       "tarifas-hamacas": { category: "Beach Club Zone", shortLabel: "Beach Club" }
@@ -1373,7 +1412,7 @@ const translations = {
       "vinos-tintos": { category: "Red wines", shortLabel: "Reds" },
       "vinos-rosados": { category: "Rosé wines", shortLabel: "Rosés" },
       "cavas-espumosos": { category: "Cavas & sparkling wines", shortLabel: "Cavas" },
-      "granizados-smoothies-frappes": { category: "Slushies, Smoothies & Frappés", shortLabel: "Slushies" },
+      "granizados-smoothies-frappes": { category: "Smoothies & Frappés", shortLabel: "Smoothies" },
       "cocteles-clasicos": { category: "Cocktails", shortLabel: "Cocktails" },
       "sangrias-carta": { category: "Sangrias", shortLabel: "Sangrias" }
     },
@@ -1467,13 +1506,16 @@ const translations = {
       "pollo-curry": { title: "Chicken curry with rice", description: "Individual portion of chicken curry served with rice." },
       "macarrones-bolonesa": { title: "Macaroni Bolognese", description: "Individual portion of macaroni with Bolognese sauce." },
       "paella-valenciana": { title: "Valencian paella", description: "Individual portion of traditional Valencian paella." },
-      "granizado-limon": { title: "Lemon slushie", description: "Refreshing lemon slushie.", note: "Alcohol supplement +3 €." },
-      "smoothie-mango": { title: "Mango smoothie", description: "Mango smoothie.", note: "Alcohol supplement +3 €." },
-      "smoothie-coco-pina": { title: "Coconut and pineapple smoothie", description: "Coconut and pineapple smoothie.", note: "Alcohol supplement +3 €." },
-      "smoothie-yogur-melon": { title: "Yogurt and melon smoothie", description: "Yogurt and melon smoothie.", note: "Alcohol supplement +3 €." },
-      "frappe-cafe": { title: "Coffee frappé", description: "Coffee frappé.", note: "Alcohol supplement +3 €." },
-      "frappe-chocolate": { title: "Chocolate frappé", description: "Chocolate frappé.", note: "Alcohol supplement +3 €." },
-      "frappe-vainilla": { title: "Vanilla frappé", description: "Vanilla frappé.", note: "Alcohol supplement +3 €." },
+      "granizado-limon": { title: "Lemon slushie", description: "Refreshing natural lemon slushie.", note: "Alcohol supplement +3 €." },
+      "smoothie-pina-coco": { title: "Pineapple & coconut smoothie", description: "Tropical pineapple and coconut smoothie.", note: "Alcohol supplement +3 €." },
+      "smoothie-melon": { title: "Melon smoothie", description: "Smooth and refreshing melon smoothie.", note: "Alcohol supplement +3 €." },
+      "smoothie-maracuya-mango": { title: "Passion fruit & mango smoothie", description: "Exotic passion fruit and mango smoothie.", note: "Alcohol supplement +3 €." },
+      "smoothie-mango": { title: "Mango smoothie", description: "Creamy mango smoothie.", note: "Alcohol supplement +3 €." },
+      "frappe-chocolate": { title: "Chocolate frappé", description: "Creamy chocolate frappé.", note: "Alcohol supplement +3 €." },
+      "frappe-vainilla": { title: "Vanilla frappé", description: "Smooth vanilla frappé.", note: "Alcohol supplement +3 €." },
+      "frappe-yogurt": { title: "Yogurt frappé", description: "Fresh yogurt frappé.", note: "Alcohol supplement +3 €." },
+      "frappe-cafe": { title: "Coffee frappé", description: "Intense coffee frappé.", note: "Alcohol supplement +3 €." },
+      "frappe-cafe-bayleis": { title: "Coffee Bayleis frappé", description: "Coffee frappé with a Bayleis touch.", note: "Alcohol supplement +3 €." },
       "mojito-normal": { title: "Classic mojito", description: "The most classic Cuban cocktail. White rum, lime, mint, sugar, and soda." },
       "mojito-sabores": { title: "Flavoured mojito", description: "The fruity, refreshing version of the mojito. White rum, fruit of your choice, lime, mint, and soda." },
       "daikiri-frozen": { title: "Daiquiri", description: "A fresh, citrusy, balanced cocktail. White rum, lime juice, and sugar." },
@@ -1527,7 +1569,7 @@ const translations = {
     sections: {
       bebidas: { category: "Getränke", shortLabel: "Getränke" },
       cocteles: { category: "Cocktails", shortLabel: "Cocktails" },
-      "granizados-smoothies": { category: "Granitas & Smoothies", shortLabel: "Granitas & Smoothies" },
+      "granizados-smoothies": { category: "Smoothies & Frappés", shortLabel: "Smoothies & Frappés" },
       sangrias: { category: "Sangrias", shortLabel: "Sangrias" },
       comidas: { category: "Speisen", shortLabel: "Speisen" },
       "tarifas-hamacas": { category: "Beach Club Bereich", shortLabel: "Beach Club" }
@@ -1547,7 +1589,7 @@ const translations = {
       "vinos-tintos": { category: "Rotweine", shortLabel: "Rotweine" },
       "vinos-rosados": { category: "Roséweine", shortLabel: "Rosé" },
       "cavas-espumosos": { category: "Cavas & Schaumweine", shortLabel: "Cavas" },
-      "granizados-smoothies-frappes": { category: "Granitas, Smoothies & Frappés", shortLabel: "Granitas" },
+      "granizados-smoothies-frappes": { category: "Smoothies & Frappés", shortLabel: "Smoothies" },
       "cocteles-clasicos": { category: "Cocktails", shortLabel: "Cocktails" },
       "sangrias-carta": { category: "Sangrias", shortLabel: "Sangrias" }
     },
@@ -1641,13 +1683,16 @@ const translations = {
       "pollo-curry": { title: "Hähnchen-Curry mit Reis", description: "Einzelportion Hähnchen-Curry mit Reis." },
       "macarrones-bolonesa": { title: "Makkaroni Bolognese", description: "Einzelportion Makkaroni mit Bolognese-Sauce." },
       "paella-valenciana": { title: "Valencianische Paella", description: "Einzelportion traditionelle valencianische Paella." },
-      "granizado-limon": { title: "Zitronen-Granita", description: "Erfrischende Zitronen-Granita.", note: "Aufpreis mit Alkohol: 3 €." },
-      "smoothie-mango": { title: "Mango-Smoothie", description: "Mango-Smoothie.", note: "Aufpreis mit Alkohol: 3 €." },
-      "smoothie-coco-pina": { title: "Kokos-Ananas-Smoothie", description: "Kokos-Ananas-Smoothie.", note: "Aufpreis mit Alkohol: 3 €." },
-      "smoothie-yogur-melon": { title: "Joghurt-Melonen-Smoothie", description: "Joghurt-Melonen-Smoothie.", note: "Aufpreis mit Alkohol: 3 €." },
-      "frappe-cafe": { title: "Kaffee-Frappé", description: "Kaffee-Frappé.", note: "Aufpreis mit Alkohol: 3 €." },
-      "frappe-chocolate": { title: "Schokoladen-Frappé", description: "Schokoladen-Frappé.", note: "Aufpreis mit Alkohol: 3 €." },
-      "frappe-vainilla": { title: "Vanille-Frappé", description: "Vanille-Frappé.", note: "Aufpreis mit Alkohol: 3 €." },
+      "granizado-limon": { title: "Zitronen-Granita", description: "Erfrischende Granita aus natürlicher Zitrone.", note: "Aufpreis mit Alkohol: 3 €." },
+      "smoothie-pina-coco": { title: "Ananas & Kokos-Smoothie", description: "Tropischer Smoothie aus Ananas und Kokos.", note: "Aufpreis mit Alkohol: 3 €." },
+      "smoothie-melon": { title: "Melonen-Smoothie", description: "Sanfter und erfrischender Melonen-Smoothie.", note: "Aufpreis mit Alkohol: 3 €." },
+      "smoothie-maracuya-mango": { title: "Maracuja & Mango-Smoothie", description: "Exotischer Smoothie aus Maracuja und Mango.", note: "Aufpreis mit Alkohol: 3 €." },
+      "smoothie-mango": { title: "Mango-Smoothie", description: "Cremiger Mango-Smoothie.", note: "Aufpreis mit Alkohol: 3 €." },
+      "frappe-chocolate": { title: "Schokoladen-Frappé", description: "Cremiger Schokoladen-Frappé.", note: "Aufpreis mit Alkohol: 3 €." },
+      "frappe-vainilla": { title: "Vanille-Frappé", description: "Sanfter Vanille-Frappé.", note: "Aufpreis mit Alkohol: 3 €." },
+      "frappe-yogurt": { title: "Joghurt-Frappé", description: "Frischer Joghurt-Frappé.", note: "Aufpreis mit Alkohol: 3 €." },
+      "frappe-cafe": { title: "Kaffee-Frappé", description: "Intensiver Kaffee-Frappé.", note: "Aufpreis mit Alkohol: 3 €." },
+      "frappe-cafe-bayleis": { title: "Kaffee Bayleis-Frappé", description: "Kaffee-Frappé mit einem Hauch Bayleis.", note: "Aufpreis mit Alkohol: 3 €." },
       "mojito-normal": { title: "Klassischer Mojito", description: "Der kubanische Cocktail-Klassiker. Weißer Rum, Limette, Minze, Zucker und Soda." },
       "mojito-sabores": { title: "Mojito mit Geschmack", description: "Die fruchtige und erfrischende Version des Mojitos. Weißer Rum, Frucht nach Wahl, Limette, Minze und Soda." },
       "daikiri-frozen": { title: "Daiquiri", description: "Ein frischer, zitrischer und ausgewogener Cocktail. Weißer Rum, Limettensaft und Zucker." },
