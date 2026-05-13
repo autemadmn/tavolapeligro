@@ -495,43 +495,78 @@ const cocktailGroups = [
         id: "mojito-normal",
         title: "Mojito normal",
         price: "9,00 €",
-        description: "Mojito clásico.",
+        description: "El cóctel cubano más clásico. Ron blanco, lima, hierbabuena, azúcar y soda.",
         image: "assets/cocteles/mojito-normal.webp"
       },
       {
         id: "mojito-sabores",
         title: "Mojito sabores",
         price: "9,00 €",
-        description: "Mojito de sabores: melón, fresa o maracuyá.",
+        description: "La versión afrutada y refrescante del mojito. Ron blanco, fruta a elegir, lima, hierbabuena y soda.",
         image: "assets/cocteles/mojito-sabores.webp"
       },
       {
         id: "daikiri-frozen",
-        title: "Daikiri Frozen",
+        title: "Daiquiri",
         price: "9,00 €",
-        description: "Daikiri frozen.",
+        description: "Un cóctel fresco, cítrico y equilibrado. Ron blanco, zumo de lima y azúcar.",
         image: "assets/cocteles/daikiri-frozen.webp"
+      },
+      {
+        id: "daiquiri-sabores",
+        title: "Daiquiri Sabores",
+        price: "9,00 €",
+        description: "La versión afrutada del daiquiri clásico. Ron blanco, fruta a elegir, lima y azúcar.",
+        image: "assets/cocteles/daikirisabores.webp"
       },
       {
         id: "pina-colada",
         title: "Piña colada",
         price: "9,00 €",
-        description: "Cóctel de piña colada.",
+        description: "El cóctel tropical más cremoso. Ron, crema de coco y zumo de piña.",
         image: "assets/cocteles/pina-colada.webp"
       },
       {
         id: "caipirinha",
         title: "Caipirinha",
         price: "9,00 €",
-        description: "Caipirinha clásica.",
+        description: "El clásico brasileño intenso y cítrico. Cachaça, lima, azúcar y hielo picado.",
         image: "assets/cocteles/caipirinha.webp"
       },
       {
         id: "caipiroska",
         title: "Caipiroska",
         price: "9,00 €",
-        description: "Caipiroska clásica.",
+        description: "La versión con vodka de la caipirinha. Vodka, lima, azúcar y hielo picado.",
         image: "assets/cocteles/caipiroska.webp"
+      },
+      {
+        id: "aperol-spritz",
+        title: "Aperol Spritz",
+        price: "9,00 €",
+        description: "El spritz original italiano. Prosecco, Aperol, soda y una rodaja de naranja.",
+        image: "assets/cocteles/aperolspritz.webp"
+      },
+      {
+        id: "crodino-sin-alcohol",
+        title: "Crodino sin alcohol",
+        price: "7,00 €",
+        description: "El spritz italiano sin alcohol. Crodino, soda, hielo y una rodaja de naranja.",
+        image: "assets/cocteles/crodinosinalcohol.webp"
+      },
+      {
+        id: "sarti-spritz",
+        title: "Sarti Spritz",
+        price: "9,00 €",
+        description: "El spritz afrutado y refrescante. Prosecco, Sarti, soda y una rodaja de lima.",
+        image: "assets/cocteles/sartispritz.webp"
+      },
+      {
+        id: "mondoro-hugo-spritz",
+        title: "Mondoro Hugo Spritz",
+        price: "9,00 €",
+        description: "Un spritz floral y aromático. Prosecco, Mondoro, soda y hojas de menta.",
+        image: "assets/cocteles/mondorohugospritz.webp"
       }
     ]
   }
@@ -1216,27 +1251,47 @@ const translations = {
       },
       "mojito-normal": {
         title: "Mojito normal",
-        description: "Mojito clásico."
+        description: "El cóctel cubano más clásico. Ron blanco, lima, hierbabuena, azúcar y soda."
       },
       "mojito-sabores": {
         title: "Mojito sabores",
-        description: "Mojito de sabores: melón, fresa o maracuyá."
+        description: "La versión afrutada y refrescante del mojito. Ron blanco, fruta a elegir, lima, hierbabuena y soda."
       },
       "daikiri-frozen": {
-        title: "Daikiri Frozen",
-        description: "Daikiri frozen."
+        title: "Daiquiri",
+        description: "Un cóctel fresco, cítrico y equilibrado. Ron blanco, zumo de lima y azúcar."
+      },
+      "daiquiri-sabores": {
+        title: "Daiquiri Sabores",
+        description: "La versión afrutada del daiquiri clásico. Ron blanco, fruta a elegir, lima y azúcar."
       },
       "pina-colada": {
         title: "Piña colada",
-        description: "Cóctel de piña colada."
+        description: "El cóctel tropical más cremoso. Ron, crema de coco y zumo de piña."
       },
       caipirinha: {
         title: "Caipirinha",
-        description: "Caipirinha clásica."
+        description: "El clásico brasileño intenso y cítrico. Cachaça, lima, azúcar y hielo picado."
       },
       caipiroska: {
         title: "Caipiroska",
-        description: "Caipiroska clásica."
+        description: "La versión con vodka de la caipirinha. Vodka, lima, azúcar y hielo picado."
+      },
+      "aperol-spritz": {
+        title: "Aperol Spritz",
+        description: "El spritz original italiano. Prosecco, Aperol, soda y una rodaja de naranja."
+      },
+      "crodino-sin-alcohol": {
+        title: "Crodino sin alcohol",
+        description: "El spritz italiano sin alcohol. Crodino, soda, hielo y una rodaja de naranja."
+      },
+      "sarti-spritz": {
+        title: "Sarti Spritz",
+        description: "El spritz afrutado y refrescante. Prosecco, Sarti, soda y una rodaja de lima."
+      },
+      "mondoro-hugo-spritz": {
+        title: "Mondoro Hugo Spritz",
+        description: "Un spritz floral y aromático. Prosecco, Mondoro, soda y hojas de menta."
       },
       "tinto-verano-vaso": {
         title: "Tinto verano vaso",
@@ -1419,12 +1474,17 @@ const translations = {
       "frappe-cafe": { title: "Coffee frappé", description: "Coffee frappé.", note: "Alcohol supplement +3 €." },
       "frappe-chocolate": { title: "Chocolate frappé", description: "Chocolate frappé.", note: "Alcohol supplement +3 €." },
       "frappe-vainilla": { title: "Vanilla frappé", description: "Vanilla frappé.", note: "Alcohol supplement +3 €." },
-      "mojito-normal": { title: "Classic mojito", description: "Classic mojito." },
-      "mojito-sabores": { title: "Flavoured mojito", description: "Flavoured mojito: melon, strawberry, or passion fruit." },
-      "daikiri-frozen": { title: "Frozen daiquiri", description: "Frozen daiquiri." },
-      "pina-colada": { title: "Piña colada", description: "Piña colada cocktail." },
-      caipirinha: { title: "Caipirinha", description: "Classic caipirinha." },
-      caipiroska: { title: "Caipiroska", description: "Classic caipiroska." },
+      "mojito-normal": { title: "Classic mojito", description: "The most classic Cuban cocktail. White rum, lime, mint, sugar, and soda." },
+      "mojito-sabores": { title: "Flavoured mojito", description: "The fruity, refreshing version of the mojito. White rum, fruit of your choice, lime, mint, and soda." },
+      "daikiri-frozen": { title: "Daiquiri", description: "A fresh, citrusy, balanced cocktail. White rum, lime juice, and sugar." },
+      "daiquiri-sabores": { title: "Flavoured Daiquiri", description: "The fruity version of the classic daiquiri. White rum, fruit of your choice, lime, and sugar." },
+      "pina-colada": { title: "Piña colada", description: "The creamiest tropical cocktail. Rum, coconut cream, and pineapple juice." },
+      caipirinha: { title: "Caipirinha", description: "The intense, citrusy Brazilian classic. Cachaça, lime, sugar, and crushed ice." },
+      caipiroska: { title: "Caipiroska", description: "The vodka version of caipirinha. Vodka, lime, sugar, and crushed ice." },
+      "aperol-spritz": { title: "Aperol Spritz", description: "The original Italian spritz. Prosecco, Aperol, soda, and an orange slice." },
+      "crodino-sin-alcohol": { title: "Alcohol-free Crodino", description: "The alcohol-free Italian spritz. Crodino, soda, ice, and an orange slice." },
+      "sarti-spritz": { title: "Sarti Spritz", description: "A fruity and refreshing spritz. Prosecco, Sarti, soda, and a lime slice." },
+      "mondoro-hugo-spritz": { title: "Mondoro Hugo Spritz", description: "A floral, aromatic spritz. Prosecco, Mondoro, soda, and mint leaves." },
       "tinto-verano-vaso": { title: "Tinto de verano glass", description: "Tinto de verano served by the glass." },
       "tinto-verano-jarra": { title: "Tinto de verano jug", description: "Tinto de verano served in a jug." },
       "sangria-vino-blanco": { title: "White wine sangria", description: "Sangria made with white wine." },
@@ -1588,12 +1648,17 @@ const translations = {
       "frappe-cafe": { title: "Kaffee-Frappé", description: "Kaffee-Frappé.", note: "Aufpreis mit Alkohol: 3 €." },
       "frappe-chocolate": { title: "Schokoladen-Frappé", description: "Schokoladen-Frappé.", note: "Aufpreis mit Alkohol: 3 €." },
       "frappe-vainilla": { title: "Vanille-Frappé", description: "Vanille-Frappé.", note: "Aufpreis mit Alkohol: 3 €." },
-      "mojito-normal": { title: "Klassischer Mojito", description: "Klassischer Mojito." },
-      "mojito-sabores": { title: "Mojito mit Geschmack", description: "Mojito mit Geschmack: Melone, Erdbeere oder Maracuja." },
-      "daikiri-frozen": { title: "Frozen Daiquiri", description: "Frozen Daiquiri." },
-      "pina-colada": { title: "Piña Colada", description: "Piña-Colada-Cocktail." },
-      caipirinha: { title: "Caipirinha", description: "Klassische Caipirinha." },
-      caipiroska: { title: "Caipiroska", description: "Klassische Caipiroska." },
+      "mojito-normal": { title: "Klassischer Mojito", description: "Der kubanische Cocktail-Klassiker. Weißer Rum, Limette, Minze, Zucker und Soda." },
+      "mojito-sabores": { title: "Mojito mit Geschmack", description: "Die fruchtige und erfrischende Version des Mojitos. Weißer Rum, Frucht nach Wahl, Limette, Minze und Soda." },
+      "daikiri-frozen": { title: "Daiquiri", description: "Ein frischer, zitrischer und ausgewogener Cocktail. Weißer Rum, Limettensaft und Zucker." },
+      "daiquiri-sabores": { title: "Daiquiri mit Geschmack", description: "Die fruchtige Version des klassischen Daiquiris. Weißer Rum, Frucht nach Wahl, Limette und Zucker." },
+      "pina-colada": { title: "Piña Colada", description: "Der cremigste tropische Cocktail. Rum, Kokoscreme und Ananassaft." },
+      caipirinha: { title: "Caipirinha", description: "Der intensive, zitrische brasilianische Klassiker. Cachaça, Limette, Zucker und Crushed Ice." },
+      caipiroska: { title: "Caipiroska", description: "Die Version der Caipirinha mit Wodka. Wodka, Limette, Zucker und Crushed Ice." },
+      "aperol-spritz": { title: "Aperol Spritz", description: "Der original italienische Spritz. Prosecco, Aperol, Soda und eine Orangenscheibe." },
+      "crodino-sin-alcohol": { title: "Crodino alkoholfrei", description: "Der alkoholfreie italienische Spritz. Crodino, Soda, Eis und eine Orangenscheibe." },
+      "sarti-spritz": { title: "Sarti Spritz", description: "Ein fruchtiger und erfrischender Spritz. Prosecco, Sarti, Soda und eine Limettenscheibe." },
+      "mondoro-hugo-spritz": { title: "Mondoro Hugo Spritz", description: "Ein floraler und aromatischer Spritz. Prosecco, Mondoro, Soda und Minzblätter." },
       "tinto-verano-vaso": { title: "Tinto de verano Glas", description: "Tinto de verano im Glas serviert." },
       "tinto-verano-jarra": { title: "Tinto de verano Krug", description: "Tinto de verano im Krug serviert." },
       "sangria-vino-blanco": { title: "Weißwein-Sangria", description: "Sangria mit Weißwein." },
