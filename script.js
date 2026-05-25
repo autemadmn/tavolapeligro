@@ -991,8 +991,8 @@ const menuSections = [
   },
   {
     id: "cocteles",
-    category: "Cócteles",
-    shortLabel: "Cócteles",
+    category: "Cócteles y Spritz",
+    shortLabel: "Cócteles y Spritz",
     groups: cocktailGroups
   },
   {
@@ -1055,7 +1055,7 @@ const translations = {
     },
     sections: {
       bebidas: { category: "Bebidas", shortLabel: "Bebidas" },
-      cocteles: { category: "Cócteles", shortLabel: "Cócteles" },
+      cocteles: { category: "Cócteles y Spritz", shortLabel: "Cócteles y Spritz" },
       "granizados-smoothies": { category: "Smoothies y Frappés", shortLabel: "Smoothies y Frappés" },
       sangrias: { category: "Sangrías", shortLabel: "Sangrías" },
       comidas: { category: "Comida", shortLabel: "Comida" },
