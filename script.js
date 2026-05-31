@@ -270,7 +270,7 @@ const foodGroups = [
         title: "Ensalada de quinoa",
         price: "10,00 €",
         description: "Ración de ensalada de quinoa.",
-        image: "assets/comidas/platos-preparados/ensalada-quinoa.webp"
+        image: "assets/comidas/platos-preparados/ensalada-quinoa-1.webp"
       },
       {
         id: "costillas-barbacoa",
@@ -671,7 +671,7 @@ const productImageOverrides = {
   "cuatro-quesos": "assets/comidas/pizzas/4quesos.webp",
   peperoni: "assets/comidas/pizzas/peperoni.webp",
   canibal: "assets/comidas/pizzas/canibal.webp",
-  "ensalada-quinoa": "assets/comidas/platos-preparados/ensalada-quinoa.webp",
+  "ensalada-quinoa": "assets/comidas/platos-preparados/ensalada-quinoa-1.webp",
   "costillas-barbacoa": "assets/comidas/platos-preparados/costillasalabarbacoa.webp",
   "salmon-teriyaki": "assets/comidas/platos-preparados/salmonteriyakiconarroz.webp",
   "pollo-curry": "assets/comidas/platos-preparados/polloalcurryconarroz.webp",
@@ -959,6 +959,10 @@ const allergenData = {
   canibal: {
     title: "Pizza canibal",
     contains: ["Gluten", "Lácteos"],
+    traces: []
+  },
+  "ensalada-quinoa": {
+    contains: ["Lácteos"],
     traces: []
   },
   "salmon-teriyaki": {
